@@ -31,7 +31,7 @@ vertices = {};
 edges = {};
 
 limit = Length[vertices1];
-(* limit = 3; *)
+limit = 3;
 
 For[i = 1, i <= limit, i++,
     offset = vertices1[[i]] * phi^3;
