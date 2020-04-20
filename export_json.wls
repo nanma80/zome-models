@@ -2,7 +2,8 @@
 
 dataFolder = "data";
 epsilon = 0.0000001;
-shape = "nested_zome_ball";
+level = 2;
+shape = "nested_zome_ball_" <> IntegerString[level];
 dataFileName = FileNameJoin[{dataFolder, shape <> ".wl"}];
 
 projectTo3d[vertex4d_] := {vertex4d[[1]], vertex4d[[2]], vertex4d[[3]]};
@@ -29,6 +30,11 @@ getEdgeVertexData[edges_] := Module[
 	Print["Converting " <> IntegerString[Length[edges]] <> " edges to index based."];
 	possibleValues = Union[Flatten[edges], SameTest -> (Abs[N[#1]-N[#2]]<epsilon&)];
 	filteredTable = Intersection[lookupTable, Table[{N[v]}, {v, possibleValues}], SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
+	missingValues = Complement[Table[{N[v]}, {v, possibleValues}], lookupTable, SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
+
+	If[Length[missingValues] > 0, 
+		Print["There are missing values " <> ToString[Flatten[missingValues]]]
+	];
 
 	edgesGoldenField = Map[toGoldenField[#, filteredTable]&, edges, {3}];
 	Print["Mapped values to the golden ratio field"];
@@ -45,7 +51,7 @@ getEdgeVertexData[edges_] := Module[
 ];
 
 phi = GoldenRatio;
-numberLimit = {6, 4};
+numberLimit = {18, 18};
 lookupTable = Flatten[Table[
 	{N[i + j * GoldenRatio], {i, j}},
 	{i, -numberLimit[[1]], numberLimit[[1]]},

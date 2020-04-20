@@ -4,7 +4,7 @@
 dataFolder = "data";
 AllCells = True;
 epsilon = 0.0000001;
-dataFileName = FileNameJoin[{dataFolder, "nested_zome_ball.wl"}];
+dataFileName = FileNameJoin[{dataFolder, "nested_zome_ball_1.wl"}];
 
 projectTo3d[vertex4d_] := {vertex4d[[1]], vertex4d[[2]], vertex4d[[3]]};
 reflect[point_, mirror_] := Simplify[point - 2 * (point.mirror)/(mirror.mirror)*mirror];
@@ -57,4 +57,17 @@ If[FileExistsQ[dataFileName], DeleteFile[dataFileName]];
 Save[dataFileName, data];
 Print["Saved cells to " <> dataFileName];
 
+(*
+    phi = (1 + Sqrt[5])/2;
+    max = 3 + Sqrt[5]; (* max coordinates in vertices *)
+    f[d_] := (phi*d - max)/(d - max)
+    sol = Solve[f[d] == phi^2, {d}][[1]]
+    (* {d -> 2 (2 + Sqrt[5])} , 2*phi^3 *)
+    (d - max)/.sol//Simplify
+    (* 1 + Sqrt[5], 2 phi *)
 
+    ((phi*d - max)/.sol)//Simplify
+    (* 2 phi^3 *)
+
+    (* original blue strut length, 2, 2*phi *)
+*)
