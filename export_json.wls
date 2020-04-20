@@ -51,7 +51,7 @@ getEdgeVertexData[edges_] := Module[
 ];
 
 phi = GoldenRatio;
-numberLimit = {18, 18};
+numberLimit = {40, 40};
 lookupTable = Flatten[Table[
 	{N[i + j * GoldenRatio], {i, j}},
 	{i, -numberLimit[[1]], numberLimit[[1]]},

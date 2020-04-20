@@ -34,7 +34,7 @@ limit = Length[vertices1];
 limit = 9;
 
 For[i = 1, i <= limit, i++,
-    offset = vertices1[[i]] * phi^3;
+    offset = vertices1[[i]] * 2 * phi^3;
     newVertices = Map[# + offset &, vertices1]//Simplify;
     newEdges = Map[# + offset &, edges1, {2}]//Simplify;
     vertices = Join[vertices, newVertices];
