@@ -48,7 +48,13 @@ vertices = Union[Flatten[edges, 1], SameTest -> sameVertex];
 Print[edges//Length];
 Print[vertices//Length];
 
-(* If[FileExistsQ[dataFileName], DeleteFile[dataFileName]];
-Save[dataFileName, cells];
+data = <|
+    "vertices" -> vertices,
+    "edges" -> edges
+|>
+
+If[FileExistsQ[dataFileName], DeleteFile[dataFileName]];
+Save[dataFileName, data];
 Print["Saved cells to " <> dataFileName];
- *)
+
+
