@@ -7,6 +7,7 @@ epsilon = 0.0000001;
 level1DataFileName = FileNameJoin[{dataFolder, "nested_zome_ball_1.wl"}];
 level2DataFileName = FileNameJoin[{dataFolder, "nested_zome_ball_2.wl"}];
 phi = (1 + Sqrt[5])/2;
+useAllVertices = False;
 
 projectTo3d[vertex4d_] := {vertex4d[[1]], vertex4d[[2]], vertex4d[[3]]};
 reflect[point_, mirror_] := Simplify[point - 2 * (point.mirror)/(mirror.mirror)*mirror];
@@ -30,14 +31,14 @@ Print[vertices1//Length];
 vertices = {};
 edges = {};
 
-limit = Length[vertices1];
-(* limit = 9; *)
-seed = vertices1[[1]];
-neighborEdges = Select[edges1, Length[Intersection[#, {seed} ]] > 0&];
-selectedVertices1 = Union[Flatten[neighborEdges, 1]];
-limit = Length[selectedVertices1];
+selectedVertices1 = If[useAllVertices,
+    vertices1,
+    seed = vertices1[[1]];
+    neighborEdges = Select[edges1, Length[Intersection[#, {seed} ]] > 0&];
+    Union[Flatten[neighborEdges, 1]]
+];
 
-For[i = 1, i <= limit, i++,
+For[i = 1, i <= Length[selectedVertices1], i++,
     offset = selectedVertices1[[i]] * 2 * phi^3;
     newVertices = Map[# + offset &, vertices1]//Simplify;
     newEdges = Map[# + offset &, edges1, {2}]//Simplify;
@@ -46,8 +47,8 @@ For[i = 1, i <= limit, i++,
     Print[{i, Length[vertices], Length[edges]}];
 ];
 
-Print[edges//Length];
-Print[vertices//Length];
+Print["vertices count: " <> IntegerString[Length[vertices]]];
+Print["edge count: " <> IntegerString[Length[edges]]];
 
 data = <|
     "vertices" -> vertices,
