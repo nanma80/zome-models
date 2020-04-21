@@ -31,10 +31,14 @@ vertices = {};
 edges = {};
 
 limit = Length[vertices1];
-limit = 9;
+(* limit = 9; *)
+seed = vertices1[[1]];
+neighborEdges = Select[edges1, Length[Intersection[#, {seed} ]] > 0&];
+selectedVertices1 = Union[Flatten[neighborEdges, 1]];
+limit = Length[selectedVertices1];
 
 For[i = 1, i <= limit, i++,
-    offset = vertices1[[i]] * 2 * phi^3;
+    offset = selectedVertices1[[i]] * 2 * phi^3;
     newVertices = Map[# + offset &, vertices1]//Simplify;
     newEdges = Map[# + offset &, edges1, {2}]//Simplify;
     vertices = Join[vertices, newVertices];
@@ -48,7 +52,7 @@ Print[vertices//Length];
 data = <|
     "vertices" -> vertices,
     "edges" -> edges
-|>
+|>;
 
 If[FileExistsQ[level2DataFileName], DeleteFile[level2DataFileName]];
 Save[level2DataFileName, data];
