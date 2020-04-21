@@ -7,7 +7,7 @@ epsilon = 0.0000001;
 level1DataFileName = FileNameJoin[{dataFolder, "nested_zome_ball_1.wl"}];
 level2DataFileName = FileNameJoin[{dataFolder, "nested_zome_ball_2.wl"}];
 phi = (1 + Sqrt[5])/2;
-useAllVertices = False;
+useAllVertices = True;
 
 projectTo3d[vertex4d_] := {vertex4d[[1]], vertex4d[[2]], vertex4d[[3]]};
 reflect[point_, mirror_] := Simplify[point - 2 * (point.mirror)/(mirror.mirror)*mirror];

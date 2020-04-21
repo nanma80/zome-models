@@ -16,6 +16,7 @@ sameCenter[edge1_, edge2_] := Total[edge1] == Total[edge2];
 sameCellCenter[cell1_, cell2_] := getCellCenter[cell1] == getCellCenter[cell2];
 getCenter[edge_] := Total[edge];
 getCellCenter[cell_] := Simplify[Total[Flatten[cell, 1]]];
+edgeLength[edge_] := Norm[edge[[1]] - edge[[2]]];
 
 toGoldenField[value_, lookupTable_] := 
 	Intersection[lookupTable, {{N[value]}}, SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)][[1,2]];
@@ -31,8 +32,9 @@ getEdgeVertexData[edges_] := Module[
 	possibleValues = Union[Flatten[edges], SameTest -> (Abs[N[#1]-N[#2]]<epsilon&)];
 	Print["possibleValues count: " <> IntegerString[Length[possibleValues]]];
 	filteredTable = Intersection[lookupTable, Table[{N[v]}, {v, possibleValues}], SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
-	missingValues = Complement[Table[{N[v]}, {v, possibleValues}], lookupTable, SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
 	Print["filteredTable built"];
+	missingValues = Complement[Table[{N[v]}, {v, possibleValues}], lookupTable, SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
+	Print["missingValues checked"];
 
 	If[Length[missingValues] > 0, 
 		Print["There are missing values " <> ToString[Flatten[missingValues]]]
@@ -68,6 +70,9 @@ Print["Reading data for " <> shape <> " from " <> dataFileName];
 
 inputData = Get[dataFileName];
 
+(* edges = inputData["edges"];
+lengths = edgeLength/@edges//Simplify//Union//FullSimplify//Union;
+ *)
 scalingFactor = 1;
 allData = getEdgeVertexData[inputData["edges"] * scalingFactor];
 
