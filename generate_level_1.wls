@@ -29,8 +29,13 @@ mirrors = {
     {1, -phi, 1/phi}
 };
 
-edgeShort = {vertex1, reflect[vertex1, mirrors[[1]] ]};
+edgeShort = {vertex1, reflect[vertex1, {0, 1, 0} ]};
 edgeLong = {vertex1, reflect[vertex1, {1, 0, 0} ]};
+rectFace = {vertex1, 
+            reflect[vertex1, {0, 1, 0} ], 
+            reflect[ reflect[vertex1, {0, 1, 0} ], {1, 0, 0}],
+            reflect[vertex1, {1, 0, 0} ]
+           };
 
 edges = {edgeShort, edgeLong};
 countStart = -1;
@@ -45,12 +50,25 @@ For[i = 0, i < 10 && countStart != Length[edges], i++,
 
 vertices = Union[Flatten[edges, 1], SameTest -> sameVertex];
 
+rectFaces = {rectFace};
+countStart = -1;
+For[i = 0, i < 10 && countStart != Length[rectFaces], i++,
+    countStart = Length[rectFaces];
+    For[mirrorIndex = 3, mirrorIndex >= 1, mirrorIndex--,
+        rectFaces = Union[rectFaces, Map[reflect[#, mirrors[[mirrorIndex]]]&, rectFaces, {2}], 
+            SameTest -> sameCenter];
+    ];
+    Print[{i, Length[rectFaces]}];
+];
+
+
 Print[edges//Length];
 Print[vertices//Length];
 
 data = <|
     "vertices" -> vertices,
-    "edges" -> edges
+    "edges" -> edges,
+    "rectFaces" -> rectFaces
 |>
 
 If[FileExistsQ[dataFileName], DeleteFile[dataFileName]];

@@ -31,6 +31,7 @@ getEdgeVertexData[edges_] := Module[
 	possibleValues = Union[Flatten[edges], SameTest -> (Abs[N[#1]-N[#2]]<epsilon&)];
 	filteredTable = Intersection[lookupTable, Table[{N[v]}, {v, possibleValues}], SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
 	missingValues = Complement[Table[{N[v]}, {v, possibleValues}], lookupTable, SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
+	Print["filteredTable built"];
 
 	If[Length[missingValues] > 0, 
 		Print["There are missing values " <> ToString[Flatten[missingValues]]]

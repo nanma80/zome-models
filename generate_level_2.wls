@@ -20,16 +20,17 @@ sameCenter[edge1_, edge2_] := Total[edge1] == Total[edge2];
 sameCellCenter[cell1_, cell2_] := getCellCenter[cell1] == getCellCenter[cell2];
 sameNCellCenter[cell1_, cell2_] := Norm[getCellCenter[N[cell1]] - getCellCenter[N[cell2]]] < epsilon;
 getCellCenter[cell_] := Mean[Flatten[cell, 1]];
+edgeLength[edge_] := Norm[edge[[1]] - edge[[2]]];
 
 inputData = Get[level1DataFileName];
 vertices1 = inputData["vertices"];
 edges1 = inputData["edges"];
-
-Print[edges1//Length];
-Print[vertices1//Length];
+rectFaces1 = inputData["rectFaces"];
+rectFacesWithCenter1 = Map[{{Simplify[Mean[#]]}, #}&, rectFaces1];
 
 vertices = {};
 edges = {};
+rectFacesWithCenter = {};
 
 selectedVertices1 = If[useAllVertices,
     vertices1,
@@ -38,17 +39,54 @@ selectedVertices1 = If[useAllVertices,
     Union[Flatten[neighborEdges, 1]]
 ];
 
+selectedEdges = If[useAllVertices,
+    edges1,
+    neighborEdges
+];
+
+scalingFactor = 2 * phi^3;
+
 For[i = 1, i <= Length[selectedVertices1], i++,
-    offset = selectedVertices1[[i]] * 2 * phi^3;
+    offset = selectedVertices1[[i]] * scalingFactor;
     newVertices = Map[# + offset &, vertices1]//Simplify;
     newEdges = Map[# + offset &, edges1, {2}]//Simplify;
+    newRectFaceWithCenter = Map[# + offset &, rectFacesWithCenter1, {3}]//Simplify;
     vertices = Join[vertices, newVertices];
     edges = Join[edges, newEdges];
-    Print[{i, Length[vertices], Length[edges]}];
+    rectFacesWithCenter = Join[rectFacesWithCenter, newRectFaceWithCenter];
+    Print[{i, Length[vertices], Length[edges], Length[rectFacesWithCenter]}];
 ];
 
 Print["vertices count: " <> IntegerString[Length[vertices]]];
 Print["edge count: " <> IntegerString[Length[edges]]];
+
+radius = Max[Flatten[vertices1]];
+rectFacesMap = Association[Map[#[[1,1]] -> #[[2]]&, rectFacesWithCenter ]];
+
+For[i = 1, i <= Length[selectedEdges], i++,
+    edge = selectedEdges[[i]];
+    edgeCenter = Mean[edge];
+    newEdgeCore = edge * scalingFactor//Simplify;
+    newEdgeCenter = Mean[newEdgeCore];
+    newCenteredEdge = Map[# - newEdgeCenter&, newEdgeCore];
+    shortCenteredEdge = newCenteredEdge / edgeLength[newEdgeCore] * (edgeLength[newEdgeCore] - 2 radius);
+    newEdgePrototype = Map[# + newEdgeCenter&, shortCenteredEdge]//FullSimplify;
+    realStartPoints = rectFacesMap[newEdgePrototype[[1]]];
+    offsets = Map[# - newEdgePrototype[[1]]&, realStartPoints];
+    newEdges = Table[
+        Map[# + offset&, newEdgePrototype],
+        {offset, offsets}
+    ];
+    edges = Join[edges, newEdges];
+    Print[{i, Length[edges]}];
+];
+
+verticesStep2 = Union[Flatten[edges, 1], SameTest -> sameVertex];
+
+Print["vertices count: " <> IntegerString[Length[verticesStep2]]];
+Print["edge count: " <> IntegerString[Length[edges]]];
+
+If[Length[verticesStep2] != Length[vertices], Throw["After step 2, there are new vertices"]];
 
 data = <|
     "vertices" -> vertices,
