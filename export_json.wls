@@ -29,6 +29,7 @@ getEdgeVertexData[edges_] := Module[
 	
 	Print["Converting " <> IntegerString[Length[edges]] <> " edges to index based."];
 	possibleValues = Union[Flatten[edges], SameTest -> (Abs[N[#1]-N[#2]]<epsilon&)];
+	Print["possibleValues count: " <> IntegerString[Length[possibleValues]]];
 	filteredTable = Intersection[lookupTable, Table[{N[v]}, {v, possibleValues}], SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
 	missingValues = Complement[Table[{N[v]}, {v, possibleValues}], lookupTable, SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
 	Print["filteredTable built"];

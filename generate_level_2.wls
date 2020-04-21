@@ -62,6 +62,7 @@ Print["edge count: " <> IntegerString[Length[edges]]];
 
 radius = Max[Flatten[vertices1]];
 rectFacesMap = Association[Map[#[[1,1]] -> #[[2]]&, rectFacesWithCenter ]];
+Print["Step 2: add composite edges"];
 
 For[i = 1, i <= Length[selectedEdges], i++,
     edge = selectedEdges[[i]];
@@ -73,10 +74,11 @@ For[i = 1, i <= Length[selectedEdges], i++,
     newEdgePrototype = Map[# + newEdgeCenter&, shortCenteredEdge]//FullSimplify;
     realStartPoints = rectFacesMap[newEdgePrototype[[1]]];
     offsets = Map[# - newEdgePrototype[[1]]&, realStartPoints];
-    newEdges = Table[
+    newDoubleEdges = Table[
         Map[# + offset&, newEdgePrototype],
         {offset, offsets}
     ];
+    newEdges = Flatten[ Map[{{#[[1]], Mean[#]}, {#[[2]], Mean[#]}}&, newDoubleEdges], 1];
     edges = Join[edges, newEdges];
     Print[{i, Length[edges]}];
 ];
@@ -86,10 +88,8 @@ verticesStep2 = Union[Flatten[edges, 1], SameTest -> sameVertex];
 Print["vertices count: " <> IntegerString[Length[verticesStep2]]];
 Print["edge count: " <> IntegerString[Length[edges]]];
 
-If[Length[verticesStep2] != Length[vertices], Throw["After step 2, there are new vertices"]];
-
 data = <|
-    "vertices" -> vertices,
+    "vertices" -> verticesStep2,
     "edges" -> edges
 |>;
 
