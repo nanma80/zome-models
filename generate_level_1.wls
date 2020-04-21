@@ -60,14 +60,14 @@ Print["Saved cells to " <> dataFileName];
 (*
     phi = (1 + Sqrt[5])/2;
     max = 3 + Sqrt[5]; (* max coordinates in vertices *)
-    f[d_] := (phi*d - max)/(d - max)
+    f[d_] := (phi*d - 2 max)/(d - 2 max)
     sol = Solve[f[d] == phi^2, {d}][[1]]
-    (* {d -> 2 (2 + Sqrt[5])} , 2*phi^3 *)
-    (d - max)/.sol//Simplify
-    (* 1 + Sqrt[5], 2 phi *)
+    (* {d -> 4 (2 + Sqrt[5])} , 4 * phi^3 *)
+    (d - 2 max)/.sol//Simplify
+    (* 2(1 + Sqrt[5]), 4 phi *)
 
-    ((phi*d - max)/.sol)//Simplify
-    (* 2 phi^3 *)
+    ((phi*d - 2 max)/.sol)//Simplify
+    (* 4 (2 + Sqrt[5]), 4 phi^3 *)
 
-    (* original blue strut length, 2, 2*phi *)
+    (* original blue strut length, 2, 2*phi. need double length structs *)
 *)
