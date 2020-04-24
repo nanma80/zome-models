@@ -37,12 +37,12 @@ getEdgeVertexData[edges_] := Module[
 	missingValues = Complement[Table[{N[v]}, {v, possibleValues}], lookupTable, SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
 	Print["missingValues checked"];
 
-	filteredTable = Intersection[lookupTable, Table[{N[v]}, {v, possibleValues}], SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
-	Print["filteredTable built"];
-
 	If[Length[missingValues] > 0, 
 		Print["There are missing values " <> ToString[Flatten[missingValues]]]
 	];
+
+	filteredTable = Intersection[lookupTable, Table[{N[v]}, {v, possibleValues}], SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
+	Print["filteredTable built"];
 
 	edgesGoldenField = Map[toGoldenField[#, filteredTable]&, edges, {3}];
 	Print["Mapped values to the golden ratio field"];
