@@ -1,7 +1,6 @@
 temp*
 tmp*
 *.tmp
-*.png
 *.gif
 !output/**
 !output/static_test/**
