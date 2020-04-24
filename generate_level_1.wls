@@ -73,7 +73,7 @@ data = <|
 
 If[FileExistsQ[dataFileName], DeleteFile[dataFileName]];
 Save[dataFileName, data];
-Print["Saved cells to " <> dataFileName];
+Print["Saved data to " <> dataFileName];
 
 (*
     phi = (1 + Sqrt[5])/2;

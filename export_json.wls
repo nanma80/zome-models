@@ -2,7 +2,10 @@
 
 dataFolder = "data";
 epsilon = 0.0000001;
-level = 2;
+
+level = 3;
+numberLimit = {250, 250};
+
 shape = "nested_zome_ball_" <> IntegerString[level];
 dataFileName = FileNameJoin[{dataFolder, shape <> ".wl"}];
 
@@ -31,10 +34,11 @@ getEdgeVertexData[edges_] := Module[
 	Print["Converting " <> IntegerString[Length[edges]] <> " edges to index based."];
 	possibleValues = Union[Flatten[edges], SameTest -> (Abs[N[#1]-N[#2]]<epsilon&)];
 	Print["possibleValues count: " <> IntegerString[Length[possibleValues]]];
-	filteredTable = Intersection[lookupTable, Table[{N[v]}, {v, possibleValues}], SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
-	Print["filteredTable built"];
 	missingValues = Complement[Table[{N[v]}, {v, possibleValues}], lookupTable, SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
 	Print["missingValues checked"];
+
+	filteredTable = Intersection[lookupTable, Table[{N[v]}, {v, possibleValues}], SameTest -> (Abs[(#1[[1]] - #2[[1]])] < epsilon&)];
+	Print["filteredTable built"];
 
 	If[Length[missingValues] > 0, 
 		Print["There are missing values " <> ToString[Flatten[missingValues]]]
@@ -54,8 +58,7 @@ getEdgeVertexData[edges_] := Module[
 	|>
 ];
 
-phi = GoldenRatio;
-numberLimit = {40, 40};
+phi = (1 + Sqrt[5])/2;
 lookupTable = Flatten[Table[
 	{N[i + j * GoldenRatio], {i, j}},
 	{i, -numberLimit[[1]], numberLimit[[1]]},

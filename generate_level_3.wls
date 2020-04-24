@@ -6,8 +6,10 @@ AllCells = True;
 epsilon = 0.0000001;
 level1DataFileName = FileNameJoin[{dataFolder, "nested_zome_ball_1.wl"}];
 level2DataFileName = FileNameJoin[{dataFolder, "nested_zome_ball_2.wl"}];
+level3DataFileName = FileNameJoin[{dataFolder, "nested_zome_ball_3.wl"}];
+
 phi = (1 + Sqrt[5])/2;
-useAllVertices = True;
+useAllVertices = False;
 
 projectTo3d[vertex4d_] := {vertex4d[[1]], vertex4d[[2]], vertex4d[[3]]};
 reflect[point_, mirror_] := Simplify[point - 2 * (point.mirror)/(mirror.mirror)*mirror];
@@ -49,3 +51,43 @@ Print[longStrutLength == longImplement];
 scalingFactor = d/2/.sol;
 Print[scalingFactor];
 Print[scalingFactor//N];
+
+vertices = {};
+edges = {};
+rectFacesWithCenter = {};
+
+selectedVertices1 = If[useAllVertices,
+    vertices1,
+    seed = vertices1[[1]];
+    neighborEdges = Select[edges1, Length[Intersection[#, {seed} ]] > 0&];
+    Union[Flatten[neighborEdges, 1]]
+];
+
+selectedEdges = If[useAllVertices,
+    edges1,
+    neighborEdges
+];
+
+For[i = 1, i <= Length[selectedVertices1], i++,
+    offset = selectedVertices1[[i]] * scalingFactor;
+    newVertices = Map[# + offset &, vertices2]//Simplify;
+    newEdges = Map[# + offset &, edges2, {2}]//Simplify;
+    (* newRectFaceWithCenter = Map[# + offset &, rectFacesWithCenter1, {3}]//Simplify; *)
+    vertices = Join[vertices, newVertices];
+    edges = Join[edges, newEdges];
+    (* rectFacesWithCenter = Join[rectFacesWithCenter, newRectFaceWithCenter]; *)
+    (* Print[{i, Length[vertices], Length[edges], Length[rectFacesWithCenter]}]; *)
+    Print[{i, Length[vertices], Length[edges]}];
+];
+
+Print["vertices count: " <> IntegerString[Length[vertices]]];
+Print["edge count: " <> IntegerString[Length[edges]]];
+
+data = <|
+    "vertices" -> vertices,
+    "edges" -> edges
+|>;
+
+If[FileExistsQ[level3DataFileName], DeleteFile[level3DataFileName]];
+Save[level3DataFileName, data];
+Print["Saved data to " <> level3DataFileName];
