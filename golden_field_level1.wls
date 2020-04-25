@@ -79,6 +79,11 @@ inputData = Get[dataFileName];
 scalingFactor = 1;
 data = getEdgeVertexData[inputData["edges"] * scalingFactor];
 
+rectData = getEdgeVertexData[inputData["rectFaces"] * scalingFactor];
+rectFaceCenters = Map[ Mean[rectData["vertices"][[#]]]&, rectData["edges"] ];
+
+data["rectFaceCenters"] = rectFaceCenters;
+
 If[FileExistsQ[outputFileName], DeleteFile[outputFileName] ];
 Export[outputFileName, data];
 Print["saved golden field data to " <> outputFileName];

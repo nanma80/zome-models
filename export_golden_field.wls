@@ -3,7 +3,7 @@
 dataFolder = "data";
 epsilon = 0.0000001;
 
-level = 1;
+level = 2;
 numberLimit = {150, 210};
 
 shape = "nested_zome_ball_" <> IntegerString[level];
