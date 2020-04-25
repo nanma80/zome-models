@@ -6,7 +6,7 @@ epsilon = 0.0000001;
 level1DataFileName = FileNameJoin[{dataFolder, "golden_field_nested_zome_ball_1.wl"}];
 level2DataFileName = FileNameJoin[{dataFolder, "golden_field_nested_zome_ball_2.wl"}];
 phi = (1 + Sqrt[5])/2;
-useAllVertices = False;
+useAllVertices = True;
 
 projectTo3d[vertex4d_] := {vertex4d[[1]], vertex4d[[2]], vertex4d[[3]]};
 reflect[point_, mirror_] := Simplify[point - 2 * (point.mirror)/(mirror.mirror)*mirror];
@@ -43,7 +43,7 @@ edges = {};
 rectFacesWithCenter = {};
 
 selectedVertices1 = If[useAllVertices,
-    vertices1,
+    Range[Length[vertices1]],
     seed = 1;
     neighborEdges = Select[edges1, Length[Intersection[#, {seed} ]] > 0&];
     Union[Flatten[neighborEdges, 1]]
@@ -62,7 +62,7 @@ scalingFactor = goldenMultiply[{2, 0},
 flatEdges1 = Map[vertices1[[#]]&, edges1];
 
 For[i = 1, i <= Length[selectedVertices1], i++,
-    offset = goldenScale[vertices1[[selectedVertices1[[i]]]], scalingFactor];
+    offset = goldenScale[vertices1[[selectedVertices1[[i]] ]], scalingFactor];
     newVertices = Map[# + offset &, vertices1];
     newEdges = Map[# + offset &, flatEdges1, {2}];
     newRectFaceWithCenter = Map[# + offset &, rectFacesWithCenter1, {3}]//Simplify;
