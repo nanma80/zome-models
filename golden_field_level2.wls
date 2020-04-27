@@ -41,6 +41,7 @@ rectFacesWithCenter1 = Map[{{#}, rectFace[#] }&, rectFaceCenters ];
 vertices = {};
 edges = {};
 rectFacesWithCenter = {};
+centerEdgeMap = <||>;
 
 selectedVertices1 = If[useAllVertices,
     Range[Length[vertices1]],
@@ -68,9 +69,81 @@ For[i = 1, i <= Length[selectedVertices1], i++,
     newRectFaceWithCenter = Map[# + offset &, rectFacesWithCenter1, {3}]//Simplify;
     vertices = Join[vertices, newVertices];
     edges = Join[edges, newEdges];
-    rectFacesWithCenter = Join[rectFacesWithCenter, newRectFaceWithCenter];
-    Print[{i, Length[vertices], Length[edges], Length[rectFacesWithCenter]}];
+    centerEdgeMap[offset] = newRectFaceWithCenter;
+    (* rectFacesWithCenter = Join[rectFacesWithCenter, newRectFaceWithCenter]; *)
+    Print[{i, Length[vertices], Length[edges]}];
 ];
+
+(* Print["vertices count: " <> IntegerString[Length[vertices]]];
+Print["edge count: " <> IntegerString[Length[edges]]];
+
+vertices = Union[Flatten[edges, 1]];
+verticesMap = getMap[vertices];
+
+edgeIndices = Map[Sort[Map[verticesMap, #]]&, edges];
+
+(* data = <|
+    "vertices" -> vertices,
+    "edges" -> edgeIndices
+|>;
+ *)
+Print[Length[vertices]];
+Print[Length[edgeIndices]];
+ *)
+
+(* If[FileExistsQ[level2DataFileName], DeleteFile[level2DataFileName]];
+Save[level2DataFileName, data];
+Print["Saved data to " <> level2DataFileName];
+ *)
+
+(* radius = SortBy[ Flatten[vertices1, 1], -N[toReal[#]]&][[1]]; *)
+(* rectFacesMap = Association[Map[#[[1,1]] -> #[[2]]&, rectFacesWithCenter ]]; *)
+Print["Step 2: add composite edges"];
+
+For[i = 1, i <= Length[selectedEdges], i++,
+    edge = vertices1[[ selectedEdges[[i]] ]];
+    edgeCenter = Mean[edge];
+    newEdgeCore = Map[goldenScale[#, scalingFactor]&, edge];
+    newEdgeCenter = Mean[newEdgeCore];
+    (* newCenteredEdge = Map[# - newEdgeCenter&, newEdgeCore]; *)
+
+    rectFaceWithCenter1 = SortBy[centerEdgeMap[newEdgeCore[[1]]],
+        -goldenDot[#[[1,1]]-newEdgeCore[[1]], newEdgeCenter - newEdgeCore[[1]]].{{1.}, {phi}}&
+    ][[1]];
+
+    rectFaceWithCenter2 = SortBy[centerEdgeMap[newEdgeCore[[2]]],
+        -goldenDot[#[[1,1]]-newEdgeCore[[2]], newEdgeCenter - newEdgeCore[[2]]].{{1.}, {phi}}&
+    ][[1]];
+
+    realStartPoint1 = rectFaceWithCenter1[[2]];
+    offsets = Map[# - rectFaceWithCenter1[[1, 1]]&, realStartPoint1];
+    newEdgePrototype = {rectFaceWithCenter1[[1, 1]], rectFaceWithCenter2[[1, 1]]};
+
+    newDoubleEdges = Table[
+        Map[# + offset&, newEdgePrototype],
+        {offset, offsets}
+    ];
+    newEdges = Flatten[ Map[{{#[[1]], Mean[#]}, {#[[2]], Mean[#]}}&, newDoubleEdges], 1];
+    edges = Join[edges, newEdges];
+    Print[{i, Length[edges]}];
+
+
+(*     (* how can I do this? *)
+    shortCenteredEdge = newCenteredEdge / edgeLength[newEdgeCore] * (edgeLength[newEdgeCore] - 2 radius);
+
+    newEdgePrototype = Map[# + newEdgeCenter&, shortCenteredEdge]//FullSimplify;
+    realStartPoints = rectFacesMap[newEdgePrototype[[1]]];
+    offsets = Map[# - newEdgePrototype[[1]]&, realStartPoints];
+
+    newDoubleEdges = Table[
+        Map[# + offset&, newEdgePrototype],
+        {offset, offsets}
+    ];
+    newEdges = Flatten[ Map[{{#[[1]], Mean[#]}, {#[[2]], Mean[#]}}&, newDoubleEdges], 1];
+    edges = Join[edges, newEdges];
+    Print[{i, Length[edges]}];
+ *)
+ ];
 
 Print["vertices count: " <> IntegerString[Length[vertices]]];
 Print["edge count: " <> IntegerString[Length[edges]]];
@@ -88,38 +161,8 @@ data = <|
 Print[Length[vertices]];
 Print[Length[edgeIndices]];
 
-If[FileExistsQ[level2DataFileName], DeleteFile[level2DataFileName]];
-Save[level2DataFileName, data];
-Print["Saved data to " <> level2DataFileName];
 
-
-(* radius = SortBy[ Flatten[vertices1, 1], -N[toReal[#]]&][[1]];
-rectFacesMap = Association[Map[#[[1,1]] -> #[[2]]&, rectFacesWithCenter ]];
-Print["Step 2: add composite edges"];
-
-For[i = 1, i <= Length[selectedEdges], i++,
-    edge = vertices1[[ selectedEdges[[i]] ]];
-    edgeCenter = Mean[edge];
-    newEdgeCore = Map[goldenScale[#, scalingFactor]&, edge];
-    newEdgeCenter = Mean[newEdgeCore];
-    newCenteredEdge = Map[# - newEdgeCenter&, newEdgeCore];
-
-    (* how can I do this? *)
-    shortCenteredEdge = newCenteredEdge / edgeLength[newEdgeCore] * (edgeLength[newEdgeCore] - 2 radius);
-
-    newEdgePrototype = Map[# + newEdgeCenter&, shortCenteredEdge]//FullSimplify;
-    realStartPoints = rectFacesMap[newEdgePrototype[[1]]];
-    offsets = Map[# - newEdgePrototype[[1]]&, realStartPoints];
-    newDoubleEdges = Table[
-        Map[# + offset&, newEdgePrototype],
-        {offset, offsets}
-    ];
-    newEdges = Flatten[ Map[{{#[[1]], Mean[#]}, {#[[2]], Mean[#]}}&, newDoubleEdges], 1];
-    edges = Join[edges, newEdges];
-    Print[{i, Length[edges]}];
-];
-
-verticesStep2 = Union[Flatten[edges, 1], SameTest -> sameVertex];
+(* verticesStep2 = Union[Flatten[edges, 1], SameTest -> sameVertex];
 
 Print["vertices count: " <> IntegerString[Length[verticesStep2]]];
 Print["edge count: " <> IntegerString[Length[edges]]];
@@ -129,6 +172,7 @@ data = <|
     "edges" -> edges
 |>;
  *)
-(* If[FileExistsQ[level2DataFileName], DeleteFile[level2DataFileName]];
+
+If[FileExistsQ[level2DataFileName], DeleteFile[level2DataFileName]];
 Save[level2DataFileName, data];
-Print["Saved data to " <> level2DataFileName]; *)
+Print["Saved data to " <> level2DataFileName];

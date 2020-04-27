@@ -4,7 +4,6 @@ dataFolder = "data";
 epsilon = 0.0000001;
 
 level = 2;
-numberLimit = {150, 210};
 
 shape = "nested_zome_ball_" <> IntegerString[level];
 dataFileName = FileNameJoin[{dataFolder, "golden_field_" <> shape <> ".wl"}];
