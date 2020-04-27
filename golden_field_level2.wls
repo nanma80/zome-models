@@ -19,7 +19,6 @@ sameCenter[edge1_, edge2_] := Total[edge1] == Total[edge2];
 sameCellCenter[cell1_, cell2_] := getCellCenter[cell1] == getCellCenter[cell2];
 sameNCellCenter[cell1_, cell2_] := Norm[getCellCenter[N[cell1]] - getCellCenter[N[cell2]]] < epsilon;
 getCellCenter[cell_] := Mean[Flatten[cell, 1]];
-edgeLength[edge_] := Norm[edge[[1]] - edge[[2]]];
 goldenMultiply[x_, y_] := {
     x[[1]] * y[[1]] + x[[2]] * y[[2]],
     x[[1]] * y[[2]] + x[[2]] * y[[1]] + x[[2]] * y[[2]]
@@ -28,6 +27,9 @@ goldenScale[vector_, scale_] := Map[goldenMultiply[scale, #]&, vector];
 goldenDot[vector1_, vector2_] := Total[Table[goldenMultiply[vector1[[k]], vector2[[k]]], {k, Length[vector1]}]];
 toReal[goldenVector_] := goldenVector[[1]] + phi * goldenVector[[2]]//Simplify;
 getMap[list_] := Association[Table[{list[[k]] -> k}, {k, 1, Length[list]}]];
+goldenLengthSquared[edge_] := goldenDot[];
+edgeLengthSquare[edge_] := goldenDot[edge[[1]] - edge[[2]], edge[[1]] - edge[[2]]].{1, phi}//Simplify;
+
 
 inputData = Get[level1DataFileName];
 vertices1 = inputData["vertices"];
@@ -70,34 +72,9 @@ For[i = 1, i <= Length[selectedVertices1], i++,
     vertices = Join[vertices, newVertices];
     edges = Join[edges, newEdges];
     centerEdgeMap[offset] = newRectFaceWithCenter;
-    (* rectFacesWithCenter = Join[rectFacesWithCenter, newRectFaceWithCenter]; *)
     Print[{i, Length[vertices], Length[edges]}];
 ];
 
-(* Print["vertices count: " <> IntegerString[Length[vertices]]];
-Print["edge count: " <> IntegerString[Length[edges]]];
-
-vertices = Union[Flatten[edges, 1]];
-verticesMap = getMap[vertices];
-
-edgeIndices = Map[Sort[Map[verticesMap, #]]&, edges];
-
-(* data = <|
-    "vertices" -> vertices,
-    "edges" -> edgeIndices
-|>;
- *)
-Print[Length[vertices]];
-Print[Length[edgeIndices]];
- *)
-
-(* If[FileExistsQ[level2DataFileName], DeleteFile[level2DataFileName]];
-Save[level2DataFileName, data];
-Print["Saved data to " <> level2DataFileName];
- *)
-
-(* radius = SortBy[ Flatten[vertices1, 1], -N[toReal[#]]&][[1]]; *)
-(* rectFacesMap = Association[Map[#[[1,1]] -> #[[2]]&, rectFacesWithCenter ]]; *)
 Print["Step 2: add composite edges"];
 
 For[i = 1, i <= Length[selectedEdges], i++,
@@ -126,26 +103,8 @@ For[i = 1, i <= Length[selectedEdges], i++,
     newEdges = Flatten[ Map[{{#[[1]], Mean[#]}, {#[[2]], Mean[#]}}&, newDoubleEdges], 1];
     edges = Join[edges, newEdges];
     Print[{i, Length[edges]}];
-
-
-(*     (* how can I do this? *)
-    shortCenteredEdge = newCenteredEdge / edgeLength[newEdgeCore] * (edgeLength[newEdgeCore] - 2 radius);
-
-    newEdgePrototype = Map[# + newEdgeCenter&, shortCenteredEdge]//FullSimplify;
-    realStartPoints = rectFacesMap[newEdgePrototype[[1]]];
-    offsets = Map[# - newEdgePrototype[[1]]&, realStartPoints];
-
-    newDoubleEdges = Table[
-        Map[# + offset&, newEdgePrototype],
-        {offset, offsets}
-    ];
-    newEdges = Flatten[ Map[{{#[[1]], Mean[#]}, {#[[2]], Mean[#]}}&, newDoubleEdges], 1];
-    edges = Join[edges, newEdges];
-    Print[{i, Length[edges]}];
- *)
  ];
 
-Print["vertices count: " <> IntegerString[Length[vertices]]];
 Print["edge count: " <> IntegerString[Length[edges]]];
 
 vertices = Union[Flatten[edges, 1]];
@@ -158,20 +117,14 @@ data = <|
     "edges" -> edgeIndices
 |>;
 
+Print["edge lengths:"];
+lengths = FullSimplify[Sqrt[Union[Map[edgeLengthSquare, edges]]]];
+Print["levels"];
+Print[Log[phi, lengths/2]//FullSimplify//N];
+
+Print["Final vertex count and edge count:"];
 Print[Length[vertices]];
 Print[Length[edgeIndices]];
-
-
-(* verticesStep2 = Union[Flatten[edges, 1], SameTest -> sameVertex];
-
-Print["vertices count: " <> IntegerString[Length[verticesStep2]]];
-Print["edge count: " <> IntegerString[Length[edges]]];
-
-data = <|
-    "vertices" -> verticesStep2,
-    "edges" -> edges
-|>;
- *)
 
 If[FileExistsQ[level2DataFileName], DeleteFile[level2DataFileName]];
 Save[level2DataFileName, data];

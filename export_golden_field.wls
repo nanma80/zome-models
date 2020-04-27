@@ -3,7 +3,7 @@
 dataFolder = "data";
 epsilon = 0.0000001;
 
-level = 2;
+level = 3;
 
 shape = "nested_zome_ball_" <> IntegerString[level];
 dataFileName = FileNameJoin[{dataFolder, "golden_field_" <> shape <> ".wl"}];
