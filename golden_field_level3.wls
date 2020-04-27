@@ -103,11 +103,20 @@ For[i = 1, i <= Length[selectedEdges], i++,
         {offset, offsets}
     ];
 
-    (* newEdges = Flatten[ Map[{{#[[1]], Mean[#]}, {#[[2]], Mean[#]}}&, newDoubleEdges], 1]; *)
-    (* edges = Join[edges, newEdges]; *)
-    (* This is not right. the edges are not proper *)
-    (* not using them first *)
-    (* edges = Join[edges, newDoubleEdges]; *)
+    (* break up at 1/(phi^6+1) and phi^6/(phi^6+1) *)
+    (* phi^6+1 == {6, 8} *)
+    (* 1/(phi^6+1) == {7/10, -2/5} *)
+    (* phi^6/(phi^6+1) == {3/10, 2/5} *)
+    lambda1 = {7/10, -2/5};
+    lambda2 = {3/10, 2/5};
+    newEdges = Flatten[ 
+        Map[{
+            {#[[1]], goldenScale[#[[1]], lambda1] + goldenScale[#[[2]], lambda2]}, 
+            {#[[2]], goldenScale[#[[1]], lambda1] + goldenScale[#[[2]], lambda2]}
+        }&, newDoubleEdges], 
+    1];
+
+    edges = Join[edges, newEdges];
 
     Print[{i, Length[edges]}];
  ];
