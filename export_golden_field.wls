@@ -17,7 +17,8 @@ inputData = Get[dataFileName];
 
 outputData = <|
 	"vertices" -> inputData["vertices"],
-	"edges" -> inputData["edges"] - 1
+	"edges" -> inputData["edges"] - 1,
+    "faces" -> {}
 |>;
 
 If[FileExistsQ[outputFileName], DeleteFile[outputFileName] ];

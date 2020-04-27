@@ -106,7 +106,8 @@ For[i = 1, i <= Length[selectedEdges], i++,
     (* newEdges = Flatten[ Map[{{#[[1]], Mean[#]}, {#[[2]], Mean[#]}}&, newDoubleEdges], 1]; *)
     (* edges = Join[edges, newEdges]; *)
     (* This is not right. the edges are not proper *)
-    edges = Join[edges, newDoubleEdges];
+    (* not using them first *)
+    (* edges = Join[edges, newDoubleEdges]; *)
 
     Print[{i, Length[edges]}];
  ];
