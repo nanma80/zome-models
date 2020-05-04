@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="16" coreVersion="7.0" edition="vZome" field="heptagon" version="7.0">
+  <EditHistory editNumber="119" lastStickyEdit="-1">
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" index="6" len="0 2 1" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" index="1" len="0 2 1" outbound="false" symm="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 -2 0 -2 1 -2 0 0 0"/>
+    <SelectManifestation point="2 -1 2 -2 1 -2 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 -2 0 -2 1 -2 0 0 0"/>
+    <SelectManifestation point="2 -1 2 -2 1 -2 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 -1 2 -2 1 -2 0 0 0"/>
+    <SelectManifestation point="-1 2 0 0 -2 -1 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 2 0 0 -2 -1 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 -2 -1 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 -2 -1 0 0 0"/>
+    <SelectManifestation point="1 -2 0 -2 1 -2 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 -2 0 -2 1 -2 0 0 0" startSegment="0 0 0 0 -2 -1 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 0 0 0" startSegment="-1 2 0 0 -2 -1 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 2 0 0 -2 -1 0 0 0"/>
+    <SelectManifestation point="1 -2 0 -2 1 -2 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 -1 2 -2 1 -2 0 0 0"/>
+    <SelectManifestation point="1 -2 0 -2 1 -2 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 -2 0 -2 1 -2 0 0 0" startSegment="2 -1 2 -2 1 -2 0 0 0"/>
+    <SelectManifestation endSegment="2 -1 2 -2 1 -2 0 0 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 -1 2 -2 1 -2 0 0 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="1 -2 0 -2 1 -2 0 0 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="1 -2 0 -2 1 -2 0 0 0" startSegment="2 -1 2 -2 1 -2 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 -2 0 -2 1 -2 0 0 0" startSegment="2 -1 2 -2 1 -2 0 0 0"/>
+    <EndBlock/>
+    <StrutCreation anchor="2 -1 2 -2 1 -2 0 0 0" index="1" len="1 1 2" outbound="false" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="1 -1 1 -2 -1 -3 0 0 0" index="2" len="1 1 2" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="0 -1 0 -1 0 -1 0 0 0" index="3" len="1 1 2" outbound="false" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="1 0 2 -2 0 -2 0 0 0" index="4" len="1 1 2" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="1 -2 1 -3 0 -3 0 0 0" index="5" len="1 1 2" outbound="false" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="1 -2 1 -2 1 -1 0 0 0" index="6" len="1 1 2" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="1 0 2 -2 -1 -2 0 0 0" index="0" len="1 1 2" outbound="false" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="0 -1 0 -2 -1 -2 0 0 0" index="1" len="1 1 2" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="1 -1 1 -2 1 -1 0 0 0" index="2" len="1 1 2" outbound="false" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="2 -1 2 -3 0 -3 0 0 0" index="3" len="1 1 2" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="1 -2 0 -2 0 -2 0 0 0" index="4" len="1 1 2" outbound="false" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="1 0 1 -1 0 -1 0 0 0" index="5" len="1 1 2" symm="heptagonal antiprism corrected"/>
+    <StrutCreation anchor="1 0 1 -2 -1 -3 0 0 0" index="6" len="1 1 2" outbound="false" symm="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="1 -2 1 -2 1 -1 0 0 0" startSegment="1 -2 1 -3 0 -3 0 0 0"/>
+    <SelectManifestation endSegment="1 0 2 -2 -1 -2 0 0 0" startSegment="1 -2 1 -2 1 -1 0 0 0"/>
+    <SelectManifestation endSegment="1 -1 1 -2 1 -1 0 0 0" startSegment="0 -1 0 -2 -1 -2 0 0 0"/>
+    <SelectManifestation endSegment="2 -1 2 -3 0 -3 0 0 0" startSegment="1 -1 1 -2 1 -1 0 0 0"/>
+    <SelectManifestation endSegment="1 0 1 -1 0 -1 0 0 0" startSegment="1 -2 0 -2 0 -2 0 0 0"/>
+    <SelectManifestation endSegment="1 0 1 -2 -1 -3 0 0 0" startSegment="1 0 1 -1 0 -1 0 0 0"/>
+    <SelectManifestation endSegment="-1 2 0 0 -2 -1 0 0 0" startSegment="2 -1 2 -2 1 -2 0 0 0"/>
+    <SelectManifestation endSegment="1 -1 1 -2 -1 -3 0 0 0" startSegment="2 -1 2 -2 1 -2 0 0 0"/>
+    <SelectManifestation endSegment="1 0 2 -2 0 -2 0 0 0" startSegment="0 -1 0 -1 0 -1 0 0 0"/>
+    <SelectManifestation endSegment="1 -2 1 -3 0 -3 0 0 0" startSegment="1 0 2 -2 0 -2 0 0 0"/>
+    <SelectManifestation endSegment="0 -1 0 -2 -1 -2 0 0 0" startSegment="1 0 2 -2 -1 -2 0 0 0"/>
+    <SelectManifestation endSegment="1 -2 0 -2 0 -2 0 0 0" startSegment="2 -1 2 -3 0 -3 0 0 0"/>
+    <DeselectAll/>
+    <SelectAll/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 0 0 0" startSegment="-1 2 0 0 -2 -1 0 0 0"/>
+    <EndBlock/>
+    <Hide/>
+    <SelectManifestation endSegment="1 -2 0 -2 1 -2 0 0 0" startSegment="0 0 0 0 -2 -1 0 0 0"/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="2 -1 2 -2 1 -2 0 0 0" startSegment="0 2 1 1 -2 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 2 0 0 -2 -1 0 0 0" startSegment="2 -1 2 -2 1 -2 0 0 0"/>
+    <EndBlock/>
+    <Hide/>
+    <SelectManifestation endSegment="0 2 1 1 -2 0 0 0 0" startSegment="0 2 1 0 0 0 0 0 0"/>
+    <Hide/>
+    <SelectManifestation endSegment="0 2 1 0 0 0 0 0 0" startSegment="2 -1 2 -1 2 0 0 0 0"/>
+    <Hide/>
+    <SelectManifestation endSegment="2 -1 2 -1 2 0 0 0 0" startSegment="-1 2 0 2 -1 2 0 0 0"/>
+    <Hide/>
+    <SelectManifestation endSegment="-1 2 0 2 -1 2 0 0 0" startSegment="0 0 0 0 2 1 0 0 0"/>
+    <Hide/>
+    <SelectManifestation endSegment="0 0 0 0 2 1 0 0 0" startSegment="1 -2 0 0 2 1 0 0 0"/>
+    <Hide/>
+    <SelectManifestation endSegment="1 -2 0 0 2 1 0 0 0" startSegment="-2 1 -2 2 -1 2 0 0 0"/>
+    <Hide/>
+    <SelectManifestation endSegment="-2 1 -2 2 -1 2 0 0 0" startSegment="0 -2 -1 -1 2 0 0 0 0"/>
+    <Hide/>
+    <SelectManifestation endSegment="0 -2 -1 -1 2 0 0 0 0" startSegment="0 -2 -1 0 0 0 0 0 0"/>
+    <Hide/>
+    <SelectManifestation endSegment="0 -2 -1 0 0 0 0 0 0" startSegment="-2 1 -2 1 -2 0 0 0 0"/>
+    <Hide/>
+    <SelectManifestation endSegment="-2 1 -2 1 -2 0 0 0 0" startSegment="1 -2 0 -2 1 -2 0 0 0"/>
+    <Hide/>
+    <SelectAll/>
+    <ApplyTool name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="85.53105163574219" far="171.06210327148466" near="0.21382763227563548" parallel="false" stereoAngle="0.0" width="38.48897323608393">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.18043990489458278" y="0.7423396193192277" z="0.6452699669987944"/>
+      <LookDirection x="0.12487689140969224" y="0.633439428165688" z="-0.7636492996375915"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="heptagonal antiprism corrected" renderingStyle="heptagonal antiprism">
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+  </SymmetrySystem>
+  <Tools/>
+</vzome:vZome>

@@ -1,0 +1,55 @@
+6-cube: 
+math:
+- 6D: 64 vertices, 192 edges
+- In 3D projection, all edges are of the same length: 192 * (1+phi)
+
+zome:
+- allowing intersecting struts:
+  64 balls, 192 struts.
+- not allowing intersections:
+  - 144 balls: 64 + 80 extra
+  - 372 struts: (72 * (1+phi) + 60 * phi + 180 + 60 * (phi-1))/(1+phi) = 192 correct!
+
+6-demicube:
+math: 
+- 6D: 32 vertices, 240 edges
+- In 3D projection, half the edges are phi larger than the other half. 120 short and 120 long edges
+
+zome view 1: 
+boundary: dodecahedron with side = phi
+short: phi^2
+long: phi^3
+
+short: 30 dodecahedron edges; 30 inner icosahedron diagonals
+long: 12 * 5 dodecahedron face diagonals; 
+there are 30 long diagonals. Each is doubled. They contributes to 60 long and 60 short.
+
+- allowing intersections:
+  - 32 balls
+  - 210 struts. Each of the 30 long diagonals is represented as 3 struts. But it's actually 4 because of doubling. 
+- not allowing intersections:
+  - 112 balls: 32 + 80 extra
+  - 390 struts: 
+  30 phi and 60 phi^2 are doubled
+  Verify:
+  ((90 + 60) * phi^2 + (150 + 30) * phi + 120 + 30 * phi^(-1)) = (120 * (phi^3) + 120 * (phi^2) ) Correct!
+
+zome view 2:
+boundary: icosahedron with side = phi^3
+long: phi^3
+short: phi^2
+
+long: 30 icosahedron edges, 30 body diagonals of the inner dodecahedron, 60 from doubled diagonals
+short:  12*5 inner dodecahedron face diagonals. 60 from doubled diagonals.
+There are 30 longer diagonals. Each is doubled. They contribute 60 long and 60 short
+
+- allowing intersections:
+  - 32 balls
+  - 210 struts. Each of the 30 long diagonals is represented as 3 struts. But it's actually 4 because of doubling. 
+- not allowing intersections:
+  - 104 balls: 32 + 72 extra
+  - 390 struts:
+  (30 * phi^3 + (60 + 60) * phi^2 + (90 + 30) * phi + 150 + 60 * phi^(-1)) - (120 * (phi^3) + 120 * (phi^2))
+
+6-orthoplex
+math: 12 vertices, 60 edges

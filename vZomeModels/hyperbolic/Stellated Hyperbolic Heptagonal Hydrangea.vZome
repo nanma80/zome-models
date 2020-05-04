@@ -1,0 +1,3190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" coreVersion="6.0" field="heptagon">
+  <EditHistory editNumber="1160" lastStickyEdit="295">
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" index="0" len="1 5 4" symm="octahedral"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" index="12" len="2 1 3" symm="octahedral"/>
+    <StrutCreation anchor="1 5 4 0 0 0 0 0 0" index="12" len="0 2 1" symm="octahedral"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" dir="yellow" index="0" len="0 2 1" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 2 1 0 2 1 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 1 0 2 1 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <RotationTool name="rotation.3/rotation.3" symmetry="octahedral"/>
+    <SelectManifestation point="0 2 1 0 2 1 0 2 1"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectAll/>
+    <SelectManifestation endSegment="1 5 4 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 5 4 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="1 3 3 0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 0 0 0"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="1 3 3 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <StrutCreation anchor="0 0 0 1 3 3 0 0 0" index="0" len="1 3 3" symm="octahedral"/>
+    <StrutCreation anchor="0 0 0 -2 -1 -3 0 0 0" index="0" len="1 3 3" symm="octahedral"/>
+    <StrutCreation anchor="0 0 0 1 3 3 0 0 0" index="12" len="2 1 3" symm="octahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 3 3 1 3 3 0 0 0"/>
+    <SelectManifestation point="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation point="-2 -1 -3 1 3 3 0 0 0"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 3 3 1 3 3 0 0 0"/>
+    <SelectManifestation point="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation point="-2 -1 -3 1 3 3 0 0 0"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 3 3 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 1 3 3 0 0 0"/>
+    <SelectNeighbors/>
+    <SelectManifestation point="1 3 3 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 1 3 3 0 0 0"/>
+    <SelectManifestation endSegment="-2 -1 -3 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="1 3 3 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 1 3 3 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 1 3 3"/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <SelectManifestation point="1 3 3 1 3 3 0 0 0"/>
+    <SelectManifestation point="0 0 0 1 5 4 0 0 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation point="-2 -1 -3 1 3 3 0 0 0"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <AdjustSelectionByClass balls="DESELECT" panels="IGNORE" struts="IGNORE"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectAll/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <DeselectAll/>
+    <Snapshot id="0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+    <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+    <SelectManifestation point="1 3 3 1 3 3 0 0 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+    <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+    <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+    <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+    <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 0 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 1 3 3"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 1 3 3"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+    <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 1 3 3"/>
+    <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+    <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 -2 -1 -3"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <AdjustSelectionByClass balls="DESELECT" panels="IGNORE" struts="IGNORE"/>
+    <InvertSelection/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <EndBlock/>
+    <Snapshot id="1"/>
+    <Branch>
+      <BeginBlock/>
+      <SelectManifestation>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+        <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+        <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+        <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+        <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+        <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+        <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+        <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+        <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+        <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+        <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+        <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+        <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+        <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+        <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+        <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+        <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+        <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+        <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+        <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+        <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+        <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+        <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+        <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+        <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+        <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+        <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+        <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+        <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      </SelectManifestation>
+      <EndBlock/>
+      <setItemColor alpha="32" blue="153" green="153" red="153"/>
+      <Snapshot id="2"/>
+    </Branch>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="102" green="102" red="102"/>
+    <Snapshot id="3"/>
+    <Branch>
+      <SelectManifestation>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      </SelectManifestation>
+      <ShowVertices/>
+      <BeginBlock/>
+      <SelectManifestation>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      </SelectManifestation>
+      <EndBlock/>
+      <Hide>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Hide>
+      <ShowPoint point="0 0 0 0 0 0 0 0 0"/>
+      <BeginBlock/>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+        <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+        <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+        <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+        <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+        <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+        <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+        <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+        <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      </SelectManifestation>
+      <EndBlock/>
+      <ShowVertices/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+      <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+      <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+      <EndBlock/>
+      <Midpoint>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Midpoint>
+      <Centroid>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Centroid>
+      <BeginBlock/>
+      <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+      <SelectManifestation point="1/3 1 1 1/3 1 1 1 11/3 10/3"/>
+      <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+      <DeselectAll/>
+      <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+      <SelectManifestation point="1/3 1 1 1/3 1 1 1 11/3 10/3"/>
+      <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+      <EndBlock/>
+      <CrossProduct/>
+      <BeginBlock/>
+      <SelectManifestation point="-2 -1 -3 0 0 0 1 3 3"/>
+      <SelectManifestation point="-2 -1 -3 1 3 3 0 0 0"/>
+      <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+      <EndBlock/>
+      <Centroid>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Centroid>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="-2 -1 -3 0 0 0 1 3 3"/>
+      <SelectManifestation point="-4/3 -2/3 -2 2/3 2 2 2/3 2 2"/>
+      <SelectManifestation point="-2 -1 -3 1 3 3 0 0 0"/>
+      <EndBlock/>
+      <CrossProduct/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+      <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+      <SelectManifestation point="-2 -1 -3 0 0 0 1 3 3"/>
+      <EndBlock/>
+      <Centroid>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Centroid>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+      <SelectManifestation point="-2/3 -1/3 -1 -2/3 -1/3 -1 1 11/3 10/3"/>
+      <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+      <EndBlock/>
+      <CrossProduct/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+      <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+      <SelectManifestation point="-2 -1 -3 0 0 0 1 3 3"/>
+      <EndBlock/>
+      <Centroid>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Centroid>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+      <SelectManifestation point="-2/3 -1/3 -1 1/3 1 1 1 11/3 10/3"/>
+      <SelectManifestation point="-2 -1 -3 0 0 0 1 3 3"/>
+      <EndBlock/>
+      <CrossProduct/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+      <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+      <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+      <EndBlock/>
+      <Centroid>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Centroid>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+      <SelectManifestation point="1/3 1 1 -2/3 -1/3 -1 1 11/3 10/3"/>
+      <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+      <EndBlock/>
+      <CrossProduct/>
+      <DeselectAll/>
+      <Snapshot id="4"/>
+    </Branch>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor alpha="127" blue="0" green="160" red="240"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor alpha="127" blue="153" green="153" red="153"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor alpha="127" blue="54" green="141" red="0"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor alpha="127" blue="149" green="118" red="0"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <EndBlock/>
+    <Snapshot id="5"/>
+    <Snapshot id="6"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <ShowVertices/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 -2 -1 -3"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+    <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+    <SelectManifestation point="1 3 3 1 3 3 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+    <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+    <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 3 3 0 0 0 1 3 3"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <SelectManifestation point="1 3 3 1 3 3 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation point="1 3 3 1 3 3 0 0 0"/>
+    <SelectManifestation point="0 0 0 1 3 3 1 3 3"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 1 5 4"/>
+    <SelectManifestation point="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 1 5 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="1 5 4 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 1 5 4"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="1 5 4 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 5 4 0 0 0 0 0 0" startSegment="4 9 10 0 0 0 1 5 4"/>
+    <SelectManifestation endSegment="4 9 10 1 5 4 0 0 0" startSegment="1 5 4 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="10 19 23 1 5 4 4 9 10" startSegment="4 9 10 0 0 0 1 5 4"/>
+    <SelectManifestation endSegment="4 9 10 0 0 0 1 5 4" startSegment="6 10 13 0 0 0 4 9 10"/>
+    <SelectManifestation endSegment="4 9 10 0 0 0 1 5 4" startSegment="6 10 13 0 0 0 4 9 10"/>
+    <SelectManifestation endSegment="4 9 10 0 0 0 1 5 4" startSegment="6 10 13 0 0 0 4 9 10"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 3 3 1 3 3 0 0 0"/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <SelectManifestation point="4 9 10 0 0 0 6 10 13"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 9 10 0 0 0 6 10 13" startSegment="1 5 4 0 0 0 4 9 10"/>
+    <SelectManifestation endSegment="1 5 4 0 0 0 4 9 10" startSegment="4 9 10 1 5 4 10 19 23"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <SelectAll/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 1 3 3 1 3 3" startSegment="1 3 3 1 3 3 0 0 0"/>
+    <SelectManifestation endSegment="1 3 3 0 0 0 1 3 3" startSegment="0 0 0 1 3 3 1 3 3"/>
+    <SelectManifestation endSegment="1 3 3 1 3 3 0 0 0" startSegment="1 3 3 0 0 0 1 3 3"/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="1 5 4 0 0 0 4 9 10"/>
+      <polygonVertex at="4 9 10 0 0 0 6 10 13"/>
+      <polygonVertex at="6 10 13 0 0 0 4 9 10"/>
+      <polygonVertex at="4 9 10 0 0 0 1 5 4"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="1 5 4 0 0 0 4 9 10"/>
+      <polygonVertex at="4 9 10 0 0 0 6 10 13"/>
+      <polygonVertex at="6 10 13 0 0 0 4 9 10"/>
+      <polygonVertex at="4 9 10 0 0 0 1 5 4"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="0 0 0 4 9 10 6 10 13"/>
+      <polygonVertex at="0 0 0 1 5 4 4 9 10"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="1 5 4 0 0 0 4 9 10"/>
+      <polygonVertex at="4 9 10 0 0 0 6 10 13"/>
+      <polygonVertex at="6 10 13 0 0 0 4 9 10"/>
+      <polygonVertex at="4 9 10 0 0 0 1 5 4"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="4 9 10 1 5 4 0 0 0"/>
+      <polygonVertex at="6 10 13 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 6 10 13 0 0 0"/>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 1 3 3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 1 3 3 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 1 3 3"/>
+    <SelectManifestation point="-2 -1 -3 1 3 3 0 0 0"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 1 3 3"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="1 3 3 0 0 0 -2 -1 -3"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 1 3 3 -2 -1 -3"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 -2 -1 -3" startSegment="-2 -1 -3 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 -2 -1 -3 0 0 0" startSegment="0 0 0 0 0 0 -2 -1 -3"/>
+    <SelectManifestation endSegment="-2 -1 -3 0 0 0 0 0 0" startSegment="0 0 0 -2 -1 -3 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 -2 -1 -3"/>
+    <SelectManifestation point="-2 -1 -3 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="0 0 0 -2 -1 -3 0 0 0"/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <SelectAll/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -1 -3 0 0 0 -3 -4 -6" startSegment="0 0 0 0 0 0 -2 -1 -3"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 -2 -1 -3" startSegment="0 0 0 -2 -1 -3 -3 -4 -6"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 10 19 23 1 5 4"/>
+      <polygonVertex at="10 19 23 19 33 42 4 9 10"/>
+      <polygonVertex at="14 28 33 23 42 52 6 10 13"/>
+      <polygonVertex at="14 28 33 20 38 46 4 9 10"/>
+      <polygonVertex at="10 19 23 13 23 29 1 5 4"/>
+      <polygonVertex at="4 9 10 6 10 13 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -3 -6 -7"/>
+      <polygonVertex at="-3 -6 -7 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -3 -6 -7"/>
+      <polygonVertex at="-3 -6 -7 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="4 9 10 1 5 4 0 0 0"/>
+      <polygonVertex at="6 10 13 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 6 10 13 0 0 0"/>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-3 -4 -6 -2 -1 -3 -6 -10 -13" startSegment="-2 -1 -3 0 0 0 -3 -4 -6"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -4 -6 0 0 0 -3 -6 -7" startSegment="-2 -1 -3 0 0 0 -3 -4 -6"/>
+    <SelectManifestation endSegment="-3 -4 -6 -2 -1 -3 -6 -10 -13" startSegment="-2 -1 -3 0 0 0 -3 -4 -6"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 -2 -1 -3 -3 -4 -6" startSegment="0 0 0 -3 -4 -6 -3 -6 -7"/>
+    <SelectManifestation endSegment="0 0 0 -2 -1 -3 -3 -4 -6" startSegment="-2 -1 -3 -3 -4 -6 -6 -10 -13"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <SelectAll/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 10 13 0 0 0 4 9 10" startSegment="4 9 10 0 0 0 6 10 13"/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 0 0 0"/>
+      <polygonVertex at="-6 -10 -13 -7 -13 -16 -2 -1 -3"/>
+      <polygonVertex at="-9 -14 -19 -12 -20 -26 -3 -4 -6"/>
+      <polygonVertex at="-9 -14 -19 -13 -23 -29 -3 -6 -7"/>
+      <polygonVertex at="-6 -10 -13 -10 -19 -23 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -6 -10 -13 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="10 19 23 1 5 4 13 23 29" startSegment="4 9 10 0 0 0 6 10 13"/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 0 0 0"/>
+      <polygonVertex at="-6 -10 -13 -7 -13 -16 -2 -1 -3"/>
+      <polygonVertex at="-9 -14 -19 -12 -20 -26 -3 -4 -6"/>
+      <polygonVertex at="-9 -14 -19 -13 -23 -29 -3 -6 -7"/>
+      <polygonVertex at="-6 -10 -13 -10 -19 -23 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -6 -10 -13 -2 -1 -3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-7 -13 -16 -2 -1 -3 -6 -10 -13" startSegment="-3 -6 -7 0 0 0 -3 -4 -6"/>
+    <SelectManifestation endSegment="-3 -6 -7 0 0 0 -3 -4 -6" startSegment="-3 -4 -6 0 0 0 -3 -6 -7"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 5 4 10 19 23 4 9 10" startSegment="4 9 10 19 33 42 10 19 23"/>
+    <SelectManifestation endSegment="1 5 4 10 19 23 4 9 10" startSegment="4 9 10 14 28 33 6 10 13"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 10 13 14 28 33 4 9 10" startSegment="4 9 10 10 19 23 1 5 4"/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 10 19 23 1 5 4"/>
+      <polygonVertex at="10 19 23 19 33 42 4 9 10"/>
+      <polygonVertex at="14 28 33 23 42 52 6 10 13"/>
+      <polygonVertex at="14 28 33 20 38 46 4 9 10"/>
+      <polygonVertex at="10 19 23 13 23 29 1 5 4"/>
+      <polygonVertex at="4 9 10 6 10 13 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="10 19 23 19 33 42 4 9 10" startSegment="4 9 10 10 19 23 1 5 4"/>
+    <SelectManifestation endSegment="6 10 13 14 28 33 4 9 10" startSegment="4 9 10 10 19 23 1 5 4"/>
+    <SelectManifestation endSegment="6 10 13 14 28 33 4 9 10" startSegment="4 9 10 10 19 23 1 5 4"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="10 19 23 19 33 42 4 9 10" startSegment="4 9 10 10 19 23 1 5 4"/>
+    <SelectManifestation endSegment="6 10 13 14 28 33 4 9 10" startSegment="4 9 10 10 19 23 1 5 4"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 10 13 14 28 33 4 9 10" startSegment="13 23 29 29 52 65 10 19 23"/>
+    <SelectManifestation endSegment="4 9 10 14 28 33 6 10 13" startSegment="6 10 13 14 28 33 4 9 10"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <SelectAll/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="-2 -1 -3 -7 -13 -16 -6 -10 -13"/>
+      <polygonVertex at="-3 -4 -6 -12 -20 -26 -9 -14 -19"/>
+      <polygonVertex at="-3 -6 -7 -13 -23 -29 -9 -14 -19"/>
+      <polygonVertex at="-3 -4 -6 -10 -19 -23 -6 -10 -13"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -3 -4 -6"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="-2 -1 -3 -7 -13 -16 -6 -10 -13"/>
+      <polygonVertex at="-3 -4 -6 -12 -20 -26 -9 -14 -19"/>
+      <polygonVertex at="-3 -6 -7 -13 -23 -29 -9 -14 -19"/>
+      <polygonVertex at="-3 -4 -6 -10 -19 -23 -6 -10 -13"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -3 -4 -6"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="-2 -1 -3 -7 -13 -16 -6 -10 -13"/>
+      <polygonVertex at="-3 -4 -6 -12 -20 -26 -9 -14 -19"/>
+      <polygonVertex at="-3 -6 -7 -13 -23 -29 -9 -14 -19"/>
+      <polygonVertex at="-3 -4 -6 -10 -19 -23 -6 -10 -13"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -3 -4 -6"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -9 -14 -19 -3 -6 -7"/>
+      <polygonVertex at="-3 -6 -7 -9 -14 -19 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -6 -10 -13 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="-2 -1 -3 -7 -13 -16 -6 -10 -13"/>
+      <polygonVertex at="-3 -4 -6 -12 -20 -26 -9 -14 -19"/>
+      <polygonVertex at="-3 -6 -7 -13 -23 -29 -9 -14 -19"/>
+      <polygonVertex at="-3 -4 -6 -10 -19 -23 -6 -10 -13"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -3 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 -4 -6 -3 -6 -7"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -7 -13 -16"/>
+      <polygonVertex at="-3 -4 -6 -10 -19 -23 -12 -20 -26"/>
+      <polygonVertex at="-3 -6 -7 -13 -23 -29 -13 -23 -29"/>
+      <polygonVertex at="-3 -4 -6 -12 -20 -26 -10 -19 -23"/>
+      <polygonVertex at="-2 -1 -3 -7 -13 -16 -6 -10 -13"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 -3 -4 -6"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -3 -6 -7"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -7 -13 -16"/>
+      <polygonVertex at="-3 -4 -6 -9 -14 -19 -12 -20 -26"/>
+      <polygonVertex at="-3 -6 -7 -9 -14 -19 -13 -23 -29"/>
+      <polygonVertex at="-3 -4 -6 -6 -10 -13 -10 -19 -23"/>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 -6 -10 -13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 -6 -10 -13"/>
+      <polygonVertex at="-3 -6 -7 -3 -4 -6 -9 -14 -19"/>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 -9 -14 -19"/>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 -6 -10 -13"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 -3 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -3 -6 -7"/>
+      <polygonVertex at="-6 -10 -13 -2 -1 -3 -7 -13 -16"/>
+      <polygonVertex at="-9 -14 -19 -3 -4 -6 -12 -20 -26"/>
+      <polygonVertex at="-9 -14 -19 -3 -6 -7 -13 -23 -29"/>
+      <polygonVertex at="-6 -10 -13 -3 -4 -6 -10 -19 -23"/>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 -6 -10 -13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -6 -7 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-7 -13 -16 -2 -1 -3 -6 -10 -13"/>
+      <polygonVertex at="-12 -20 -26 -3 -4 -6 -10 -19 -23"/>
+      <polygonVertex at="-13 -23 -29 -3 -6 -7 -13 -23 -29"/>
+      <polygonVertex at="-10 -19 -23 -3 -4 -6 -12 -20 -26"/>
+      <polygonVertex at="-6 -10 -13 -2 -1 -3 -7 -13 -16"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -3 -6 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 -6 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-3 -6 -7 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-7 -13 -16 -2 -1 -3 -6 -10 -13"/>
+      <polygonVertex at="-12 -20 -26 -3 -4 -6 -9 -14 -19"/>
+      <polygonVertex at="-13 -23 -29 -3 -6 -7 -9 -14 -19"/>
+      <polygonVertex at="-10 -19 -23 -3 -4 -6 -6 -10 -13"/>
+      <polygonVertex at="-6 -10 -13 -2 -1 -3 -3 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-6 -10 -13 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="-9 -14 -19 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="-9 -14 -19 -3 -4 -6 -3 -6 -7"/>
+      <polygonVertex at="-6 -10 -13 -2 -1 -3 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-3 -6 -7 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="-7 -13 -16 -6 -10 -13 -2 -1 -3"/>
+      <polygonVertex at="-12 -20 -26 -9 -14 -19 -3 -4 -6"/>
+      <polygonVertex at="-13 -23 -29 -9 -14 -19 -3 -6 -7"/>
+      <polygonVertex at="-10 -19 -23 -6 -10 -13 -3 -4 -6"/>
+      <polygonVertex at="-6 -10 -13 -3 -4 -6 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 0 0 0"/>
+      <polygonVertex at="-6 -10 -13 -7 -13 -16 -2 -1 -3"/>
+      <polygonVertex at="-10 -19 -23 -12 -20 -26 -3 -4 -6"/>
+      <polygonVertex at="-13 -23 -29 -13 -23 -29 -3 -6 -7"/>
+      <polygonVertex at="-12 -20 -26 -10 -19 -23 -3 -4 -6"/>
+      <polygonVertex at="-7 -13 -16 -6 -10 -13 -2 -1 -3"/>
+      <polygonVertex at="-3 -6 -7 -3 -4 -6 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 0 0 0"/>
+      <polygonVertex at="-6 -10 -13 -7 -13 -16 -2 -1 -3"/>
+      <polygonVertex at="-9 -14 -19 -12 -20 -26 -3 -4 -6"/>
+      <polygonVertex at="-9 -14 -19 -13 -23 -29 -3 -6 -7"/>
+      <polygonVertex at="-6 -10 -13 -10 -19 -23 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -6 -10 -13 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-3 -6 -7 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -3 -6 -7"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 -3 -4 -6"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -3 -6 -7"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 -3 -4 -6"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-3 -6 -7 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectNeighbors/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 0 0 0"/>
+      <polygonVertex at="-6 -10 -13 -7 -13 -16 -2 -1 -3"/>
+      <polygonVertex at="-9 -14 -19 -12 -20 -26 -3 -4 -6"/>
+      <polygonVertex at="-9 -14 -19 -13 -23 -29 -3 -6 -7"/>
+      <polygonVertex at="-6 -10 -13 -10 -19 -23 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -6 -10 -13 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -9 -14 -19 -3 -6 -7"/>
+      <polygonVertex at="-3 -6 -7 -9 -14 -19 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -6 -10 -13 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="-2 -1 -3 -7 -13 -16 -6 -10 -13"/>
+      <polygonVertex at="-3 -4 -6 -12 -20 -26 -9 -14 -19"/>
+      <polygonVertex at="-3 -6 -7 -13 -23 -29 -9 -14 -19"/>
+      <polygonVertex at="-3 -4 -6 -10 -19 -23 -6 -10 -13"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -3 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 -4 -6 -3 -6 -7"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -7 -13 -16"/>
+      <polygonVertex at="-3 -4 -6 -10 -19 -23 -12 -20 -26"/>
+      <polygonVertex at="-3 -6 -7 -13 -23 -29 -13 -23 -29"/>
+      <polygonVertex at="-3 -4 -6 -12 -20 -26 -10 -19 -23"/>
+      <polygonVertex at="-2 -1 -3 -7 -13 -16 -6 -10 -13"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -2 -1 -3 -3 -4 -6"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -3 -6 -7"/>
+      <polygonVertex at="-2 -1 -3 -6 -10 -13 -7 -13 -16"/>
+      <polygonVertex at="-3 -4 -6 -9 -14 -19 -12 -20 -26"/>
+      <polygonVertex at="-3 -6 -7 -9 -14 -19 -13 -23 -29"/>
+      <polygonVertex at="-3 -4 -6 -6 -10 -13 -10 -19 -23"/>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 -6 -10 -13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 -6 -10 -13"/>
+      <polygonVertex at="-3 -6 -7 -3 -4 -6 -9 -14 -19"/>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 -9 -14 -19"/>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 -6 -10 -13"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 -3 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -3 -6 -7"/>
+      <polygonVertex at="-6 -10 -13 -2 -1 -3 -7 -13 -16"/>
+      <polygonVertex at="-9 -14 -19 -3 -4 -6 -12 -20 -26"/>
+      <polygonVertex at="-9 -14 -19 -3 -6 -7 -13 -23 -29"/>
+      <polygonVertex at="-6 -10 -13 -3 -4 -6 -10 -19 -23"/>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 -6 -10 -13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -6 -7 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-7 -13 -16 -2 -1 -3 -6 -10 -13"/>
+      <polygonVertex at="-12 -20 -26 -3 -4 -6 -10 -19 -23"/>
+      <polygonVertex at="-13 -23 -29 -3 -6 -7 -13 -23 -29"/>
+      <polygonVertex at="-10 -19 -23 -3 -4 -6 -12 -20 -26"/>
+      <polygonVertex at="-6 -10 -13 -2 -1 -3 -7 -13 -16"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -3 -6 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 -6 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-3 -6 -7 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-7 -13 -16 -2 -1 -3 -6 -10 -13"/>
+      <polygonVertex at="-12 -20 -26 -3 -4 -6 -9 -14 -19"/>
+      <polygonVertex at="-13 -23 -29 -3 -6 -7 -9 -14 -19"/>
+      <polygonVertex at="-10 -19 -23 -3 -4 -6 -6 -10 -13"/>
+      <polygonVertex at="-6 -10 -13 -2 -1 -3 -3 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-6 -10 -13 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="-9 -14 -19 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="-9 -14 -19 -3 -4 -6 -3 -6 -7"/>
+      <polygonVertex at="-6 -10 -13 -2 -1 -3 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-3 -6 -7 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="-7 -13 -16 -6 -10 -13 -2 -1 -3"/>
+      <polygonVertex at="-12 -20 -26 -9 -14 -19 -3 -4 -6"/>
+      <polygonVertex at="-13 -23 -29 -9 -14 -19 -3 -6 -7"/>
+      <polygonVertex at="-10 -19 -23 -6 -10 -13 -3 -4 -6"/>
+      <polygonVertex at="-6 -10 -13 -3 -4 -6 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 0 0 0"/>
+      <polygonVertex at="-6 -10 -13 -7 -13 -16 -2 -1 -3"/>
+      <polygonVertex at="-10 -19 -23 -12 -20 -26 -3 -4 -6"/>
+      <polygonVertex at="-13 -23 -29 -13 -23 -29 -3 -6 -7"/>
+      <polygonVertex at="-12 -20 -26 -10 -19 -23 -3 -4 -6"/>
+      <polygonVertex at="-7 -13 -16 -6 -10 -13 -2 -1 -3"/>
+      <polygonVertex at="-3 -6 -7 -3 -4 -6 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -2 -1 -3"/>
+      <polygonVertex at="0 0 0 -3 -6 -7 -3 -4 -6"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 -3 -6 -7"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 -3 -4 -6"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -2 -1 -3 0 0 0"/>
+      <polygonVertex at="-3 -6 -7 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="-3 -4 -6 -3 -6 -7 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 -3 -4 -6 0 0 0"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -3 -6 -7"/>
+      <polygonVertex at="-3 -6 -7 0 0 0 -3 -4 -6"/>
+      <polygonVertex at="-3 -4 -6 0 0 0 -2 -1 -3"/>
+      <polygonVertex at="-2 -1 -3 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="13 23 29 10 19 23 1 5 4" startSegment="20 38 46 19 33 42 4 9 10"/>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 1 5 4 0 0 0"/>
+      <polygonVertex at="6 10 13 4 9 10 0 0 0"/>
+      <polygonVertex at="13 23 29 10 19 23 1 5 4"/>
+      <polygonVertex at="20 38 46 14 28 33 4 9 10"/>
+      <polygonVertex at="23 42 52 14 28 33 6 10 13"/>
+      <polygonVertex at="19 33 42 10 19 23 4 9 10"/>
+      <polygonVertex at="10 19 23 4 9 10 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="20 38 46 14 28 33 4 9 10" startSegment="13 23 29 10 19 23 1 5 4"/>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 1 5 4 0 0 0"/>
+      <polygonVertex at="6 10 13 4 9 10 0 0 0"/>
+      <polygonVertex at="13 23 29 10 19 23 1 5 4"/>
+      <polygonVertex at="20 38 46 14 28 33 4 9 10"/>
+      <polygonVertex at="23 42 52 14 28 33 6 10 13"/>
+      <polygonVertex at="19 33 42 10 19 23 4 9 10"/>
+      <polygonVertex at="10 19 23 4 9 10 1 5 4"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="19 33 42 20 38 46 4 9 10" startSegment="10 19 23 13 23 29 1 5 4"/>
+    <SelectManifestation endSegment="10 19 23 13 23 29 1 5 4" startSegment="14 28 33 20 38 46 4 9 10"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="4 9 10 0 0 0 1 5 4"/>
+      <polygonVertex at="10 19 23 1 5 4 4 9 10"/>
+      <polygonVertex at="14 28 33 4 9 10 6 10 13"/>
+      <polygonVertex at="14 28 33 6 10 13 4 9 10"/>
+      <polygonVertex at="10 19 23 4 9 10 1 5 4"/>
+      <polygonVertex at="4 9 10 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 10 19 23 1 5 4"/>
+      <polygonVertex at="6 10 13 14 28 33 4 9 10"/>
+      <polygonVertex at="4 9 10 14 28 33 6 10 13"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 5 4 4 9 10"/>
+      <polygonVertex at="1 5 4 4 9 10 10 19 23"/>
+      <polygonVertex at="4 9 10 6 10 13 14 28 33"/>
+      <polygonVertex at="6 10 13 4 9 10 14 28 33"/>
+      <polygonVertex at="4 9 10 1 5 4 10 19 23"/>
+      <polygonVertex at="1 5 4 0 0 0 4 9 10"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="102" green="51" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 4 9 10"/>
+      <polygonVertex at="1 5 4 4 9 10 10 19 23"/>
+      <polygonVertex at="4 9 10 10 19 23 19 33 42"/>
+      <polygonVertex at="6 10 13 14 28 33 23 42 52"/>
+      <polygonVertex at="4 9 10 14 28 33 20 38 46"/>
+      <polygonVertex at="1 5 4 10 19 23 13 23 29"/>
+      <polygonVertex at="0 0 0 4 9 10 6 10 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 4 9 10"/>
+      <polygonVertex at="4 9 10 0 0 0 6 10 13"/>
+      <polygonVertex at="10 19 23 1 5 4 13 23 29"/>
+      <polygonVertex at="14 28 33 4 9 10 20 38 46"/>
+      <polygonVertex at="14 28 33 6 10 13 23 42 52"/>
+      <polygonVertex at="10 19 23 4 9 10 19 33 42"/>
+      <polygonVertex at="4 9 10 1 5 4 10 19 23"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 0 0 0 1 5 4"/>
+      <polygonVertex at="10 19 23 1 5 4 4 9 10"/>
+      <polygonVertex at="19 33 42 4 9 10 10 19 23"/>
+      <polygonVertex at="23 42 52 6 10 13 14 28 33"/>
+      <polygonVertex at="20 38 46 4 9 10 14 28 33"/>
+      <polygonVertex at="13 23 29 1 5 4 10 19 23"/>
+      <polygonVertex at="6 10 13 0 0 0 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 1 5 4 0 0 0"/>
+      <polygonVertex at="6 10 13 4 9 10 0 0 0"/>
+      <polygonVertex at="13 23 29 10 19 23 1 5 4"/>
+      <polygonVertex at="20 38 46 14 28 33 4 9 10"/>
+      <polygonVertex at="23 42 52 14 28 33 6 10 13"/>
+      <polygonVertex at="19 33 42 10 19 23 4 9 10"/>
+      <polygonVertex at="10 19 23 4 9 10 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 10 19 23 1 5 4"/>
+      <polygonVertex at="10 19 23 19 33 42 4 9 10"/>
+      <polygonVertex at="14 28 33 23 42 52 6 10 13"/>
+      <polygonVertex at="14 28 33 20 38 46 4 9 10"/>
+      <polygonVertex at="10 19 23 13 23 29 1 5 4"/>
+      <polygonVertex at="4 9 10 6 10 13 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="0" green="255" red="0"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="0 0 0 4 9 10 6 10 13"/>
+      <polygonVertex at="1 5 4 10 19 23 13 23 29"/>
+      <polygonVertex at="4 9 10 19 33 42 20 38 46"/>
+      <polygonVertex at="6 10 13 23 42 52 23 42 52"/>
+      <polygonVertex at="4 9 10 20 38 46 19 33 42"/>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 0 0 0 6 10 13"/>
+      <polygonVertex at="6 10 13 0 0 0 4 9 10"/>
+      <polygonVertex at="13 23 29 1 5 4 10 19 23"/>
+      <polygonVertex at="20 38 46 4 9 10 19 33 42"/>
+      <polygonVertex at="23 42 52 6 10 13 23 42 52"/>
+      <polygonVertex at="19 33 42 4 9 10 20 38 46"/>
+      <polygonVertex at="10 19 23 1 5 4 13 23 29"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 13 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 6 10 13 0 0 0"/>
+      <polygonVertex at="10 19 23 13 23 29 1 5 4"/>
+      <polygonVertex at="19 33 42 20 38 46 4 9 10"/>
+      <polygonVertex at="23 42 52 23 42 52 6 10 13"/>
+      <polygonVertex at="20 38 46 19 33 42 4 9 10"/>
+      <polygonVertex at="13 23 29 10 19 23 1 5 4"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="51" green="0" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="10 19 23 33 61 75 19 33 42"/>
+      <polygonVertex at="14 28 33 43 80 98 23 42 52"/>
+      <polygonVertex at="14 28 33 42 75 94 20 38 46"/>
+      <polygonVertex at="10 19 23 29 52 65 13 23 29"/>
+      <polygonVertex at="4 9 10 14 28 33 6 10 13"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="6 10 13 14 28 33 4 9 10"/>
+      <polygonVertex at="13 23 29 29 52 65 10 19 23"/>
+      <polygonVertex at="20 38 46 46 84 104 19 33 42"/>
+      <polygonVertex at="23 42 52 53 99 121 23 42 52"/>
+      <polygonVertex at="19 33 42 46 84 104 20 38 46"/>
+      <polygonVertex at="10 19 23 29 52 65 13 23 29"/>
+      <polygonVertex at="4 9 10 14 28 33 6 10 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 28 33 4 9 10 6 10 13"/>
+      <polygonVertex at="29 52 65 10 19 23 13 23 29"/>
+      <polygonVertex at="46 84 104 19 33 42 20 38 46"/>
+      <polygonVertex at="53 99 121 23 42 52 23 42 52"/>
+      <polygonVertex at="46 84 104 20 38 46 19 33 42"/>
+      <polygonVertex at="29 52 65 13 23 29 10 19 23"/>
+      <polygonVertex at="14 28 33 6 10 13 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 6 10 13 14 28 33"/>
+      <polygonVertex at="10 19 23 13 23 29 29 52 65"/>
+      <polygonVertex at="19 33 42 20 38 46 46 84 104"/>
+      <polygonVertex at="23 42 52 23 42 52 53 99 121"/>
+      <polygonVertex at="20 38 46 19 33 42 46 84 104"/>
+      <polygonVertex at="13 23 29 10 19 23 29 52 65"/>
+      <polygonVertex at="6 10 13 4 9 10 14 28 33"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="255" green="102" red="0"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 10 19 23 1 5 4"/>
+      <polygonVertex at="10 19 23 19 33 42 4 9 10"/>
+      <polygonVertex at="19 33 42 33 61 75 10 19 23"/>
+      <polygonVertex at="23 42 52 43 80 98 14 28 33"/>
+      <polygonVertex at="20 38 46 42 75 94 14 28 33"/>
+      <polygonVertex at="13 23 29 29 52 65 10 19 23"/>
+      <polygonVertex at="6 10 13 14 28 33 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="10 19 23 33 61 75 19 33 42"/>
+      <polygonVertex at="14 28 33 43 80 98 23 42 52"/>
+      <polygonVertex at="14 28 33 42 75 94 20 38 46"/>
+      <polygonVertex at="10 19 23 29 52 65 13 23 29"/>
+      <polygonVertex at="4 9 10 14 28 33 6 10 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 4 9 10 10 19 23"/>
+      <polygonVertex at="4 9 10 10 19 23 19 33 42"/>
+      <polygonVertex at="10 19 23 19 33 42 33 61 75"/>
+      <polygonVertex at="14 28 33 23 42 52 43 80 98"/>
+      <polygonVertex at="14 28 33 20 38 46 42 75 94"/>
+      <polygonVertex at="10 19 23 13 23 29 29 52 65"/>
+      <polygonVertex at="4 9 10 6 10 13 14 28 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 1 5 4 10 19 23"/>
+      <polygonVertex at="10 19 23 4 9 10 19 33 42"/>
+      <polygonVertex at="19 33 42 10 19 23 33 61 75"/>
+      <polygonVertex at="23 42 52 14 28 33 43 80 98"/>
+      <polygonVertex at="20 38 46 14 28 33 42 75 94"/>
+      <polygonVertex at="13 23 29 10 19 23 29 52 65"/>
+      <polygonVertex at="6 10 13 4 9 10 14 28 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 1 5 4 4 9 10"/>
+      <polygonVertex at="19 33 42 4 9 10 10 19 23"/>
+      <polygonVertex at="33 61 75 10 19 23 19 33 42"/>
+      <polygonVertex at="43 80 98 14 28 33 23 42 52"/>
+      <polygonVertex at="42 75 94 14 28 33 20 38 46"/>
+      <polygonVertex at="29 52 65 10 19 23 13 23 29"/>
+      <polygonVertex at="14 28 33 4 9 10 6 10 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 4 9 10 1 5 4"/>
+      <polygonVertex at="19 33 42 10 19 23 4 9 10"/>
+      <polygonVertex at="33 61 75 19 33 42 10 19 23"/>
+      <polygonVertex at="43 80 98 23 42 52 14 28 33"/>
+      <polygonVertex at="42 75 94 20 38 46 14 28 33"/>
+      <polygonVertex at="29 52 65 13 23 29 10 19 23"/>
+      <polygonVertex at="14 28 33 6 10 13 4 9 10"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="102" green="204" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 10 19 23 13 23 29"/>
+      <polygonVertex at="4 9 10 19 33 42 20 38 46"/>
+      <polygonVertex at="10 19 23 33 61 75 37 70 85"/>
+      <polygonVertex at="14 28 33 43 80 98 52 94 117"/>
+      <polygonVertex at="14 28 33 42 75 94 52 94 117"/>
+      <polygonVertex at="10 19 23 29 52 65 37 70 85"/>
+      <polygonVertex at="4 9 10 14 28 33 20 38 46"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+      <polygonVertex at="4 9 10 20 38 46 19 33 42"/>
+      <polygonVertex at="10 19 23 37 70 85 33 61 75"/>
+      <polygonVertex at="14 28 33 52 94 117 43 80 98"/>
+      <polygonVertex at="14 28 33 52 94 117 42 75 94"/>
+      <polygonVertex at="10 19 23 37 70 85 29 52 65"/>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 13 23 29 1 5 4"/>
+      <polygonVertex at="19 33 42 20 38 46 4 9 10"/>
+      <polygonVertex at="33 61 75 37 70 85 10 19 23"/>
+      <polygonVertex at="43 80 98 52 94 117 14 28 33"/>
+      <polygonVertex at="42 75 94 52 94 117 14 28 33"/>
+      <polygonVertex at="29 52 65 37 70 85 10 19 23"/>
+      <polygonVertex at="14 28 33 20 38 46 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="13 23 29 10 19 23 1 5 4"/>
+      <polygonVertex at="20 38 46 19 33 42 4 9 10"/>
+      <polygonVertex at="37 70 85 33 61 75 10 19 23"/>
+      <polygonVertex at="52 94 117 43 80 98 14 28 33"/>
+      <polygonVertex at="52 94 117 42 75 94 14 28 33"/>
+      <polygonVertex at="37 70 85 29 52 65 10 19 23"/>
+      <polygonVertex at="20 38 46 14 28 33 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="13 23 29 1 5 4 10 19 23"/>
+      <polygonVertex at="20 38 46 4 9 10 19 33 42"/>
+      <polygonVertex at="37 70 85 10 19 23 33 61 75"/>
+      <polygonVertex at="52 94 117 14 28 33 43 80 98"/>
+      <polygonVertex at="52 94 117 14 28 33 42 75 94"/>
+      <polygonVertex at="37 70 85 10 19 23 29 52 65"/>
+      <polygonVertex at="20 38 46 4 9 10 14 28 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 1 5 4 13 23 29"/>
+      <polygonVertex at="19 33 42 4 9 10 20 38 46"/>
+      <polygonVertex at="33 61 75 10 19 23 37 70 85"/>
+      <polygonVertex at="43 80 98 14 28 33 52 94 117"/>
+      <polygonVertex at="42 75 94 14 28 33 52 94 117"/>
+      <polygonVertex at="29 52 65 10 19 23 37 70 85"/>
+      <polygonVertex at="14 28 33 4 9 10 20 38 46"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="0" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="10 19 23 33 61 75 19 33 42" startSegment="4 9 10 19 33 42 10 19 23"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="10 19 23 33 61 75 19 33 42" startSegment="4 9 10 19 33 42 10 19 23"/>
+    <SelectManifestation endSegment="4 9 10 19 33 42 10 19 23" startSegment="6 10 13 23 42 52 14 28 33"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+    </SelectManifestation>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="23 42 52 14 28 33 6 10 13" startSegment="20 38 46 14 28 33 4 9 10"/>
+    <SelectManifestation endSegment="20 38 46 14 28 33 4 9 10" startSegment="37 70 85 29 52 65 10 19 23"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <SelectAll/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="23 42 52 6 10 13 14 28 33" startSegment="19 33 42 4 9 10 10 19 23"/>
+    <SelectManifestation endSegment="33 61 75 10 19 23 19 33 42" startSegment="19 33 42 4 9 10 10 19 23"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="13 23 29 1 5 4 10 19 23"/>
+      <polygonVertex at="20 38 46 4 9 10 19 33 42"/>
+      <polygonVertex at="37 70 85 10 19 23 33 61 75"/>
+      <polygonVertex at="52 94 117 14 28 33 43 80 98"/>
+      <polygonVertex at="52 94 117 14 28 33 42 75 94"/>
+      <polygonVertex at="37 70 85 10 19 23 29 52 65"/>
+      <polygonVertex at="20 38 46 4 9 10 14 28 33"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="20 38 46 4 9 10 14 28 33" startSegment="37 70 85 10 19 23 29 52 65"/>
+    <SelectManifestation endSegment="20 38 46 4 9 10 14 28 33" startSegment="23 42 52 6 10 13 14 28 33"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <SelectAll/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="20 38 46 4 9 10 14 28 33"/>
+      <polygonVertex at="37 70 85 10 19 23 29 52 65"/>
+      <polygonVertex at="62 113 140 19 33 42 46 84 104"/>
+      <polygonVertex at="75 136 169 23 42 52 53 99 121"/>
+      <polygonVertex at="66 122 150 20 38 46 46 84 104"/>
+      <polygonVertex at="43 80 98 13 23 29 29 52 65"/>
+      <polygonVertex at="23 42 52 6 10 13 14 28 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="19 33 42 4 9 10 10 19 23"/>
+      <polygonVertex at="23 42 52 6 10 13 14 28 33"/>
+      <polygonVertex at="43 80 98 13 23 29 29 52 65"/>
+      <polygonVertex at="65 117 146 20 38 46 42 75 94"/>
+      <polygonVertex at="71 127 159 23 42 52 43 80 98"/>
+      <polygonVertex at="56 103 127 19 33 42 33 61 75"/>
+      <polygonVertex at="33 61 75 10 19 23 19 33 42"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="19 33 42 10 19 23 4 9 10"/>
+      <polygonVertex at="33 61 75 19 33 42 10 19 23"/>
+      <polygonVertex at="56 103 127 33 61 75 19 33 42"/>
+      <polygonVertex at="71 127 159 43 80 98 23 42 52"/>
+      <polygonVertex at="65 117 146 42 75 94 20 38 46"/>
+      <polygonVertex at="43 80 98 29 52 65 13 23 29"/>
+      <polygonVertex at="23 42 52 14 28 33 6 10 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="20 38 46 14 28 33 4 9 10"/>
+      <polygonVertex at="23 42 52 14 28 33 6 10 13"/>
+      <polygonVertex at="43 80 98 29 52 65 13 23 29"/>
+      <polygonVertex at="66 122 150 46 84 104 20 38 46"/>
+      <polygonVertex at="75 136 169 53 99 121 23 42 52"/>
+      <polygonVertex at="62 113 140 46 84 104 19 33 42"/>
+      <polygonVertex at="37 70 85 29 52 65 10 19 23"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="10 19 23 33 61 75 19 33 42"/>
+      <polygonVertex at="19 33 42 56 103 127 33 61 75"/>
+      <polygonVertex at="23 42 52 71 127 159 43 80 98"/>
+      <polygonVertex at="20 38 46 65 117 146 42 75 94"/>
+      <polygonVertex at="13 23 29 43 80 98 29 52 65"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+      <polygonVertex at="13 23 29 43 80 98 29 52 65"/>
+      <polygonVertex at="20 38 46 66 122 150 46 84 104"/>
+      <polygonVertex at="23 42 52 75 136 169 53 99 121"/>
+      <polygonVertex at="19 33 42 62 113 140 46 84 104"/>
+      <polygonVertex at="10 19 23 37 70 85 29 52 65"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 28 33 20 38 46 4 9 10"/>
+      <polygonVertex at="29 52 65 37 70 85 10 19 23"/>
+      <polygonVertex at="46 84 104 62 113 140 19 33 42"/>
+      <polygonVertex at="53 99 121 75 136 169 23 42 52"/>
+      <polygonVertex at="46 84 104 66 122 150 20 38 46"/>
+      <polygonVertex at="29 52 65 43 80 98 13 23 29"/>
+      <polygonVertex at="14 28 33 23 42 52 6 10 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 19 33 42 4 9 10"/>
+      <polygonVertex at="14 28 33 23 42 52 6 10 13"/>
+      <polygonVertex at="29 52 65 43 80 98 13 23 29"/>
+      <polygonVertex at="42 75 94 65 117 146 20 38 46"/>
+      <polygonVertex at="43 80 98 71 127 159 23 42 52"/>
+      <polygonVertex at="33 61 75 56 103 127 19 33 42"/>
+      <polygonVertex at="19 33 42 33 61 75 10 19 23"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 14 28 33 20 38 46"/>
+      <polygonVertex at="10 19 23 29 52 65 37 70 85"/>
+      <polygonVertex at="19 33 42 46 84 104 62 113 140"/>
+      <polygonVertex at="23 42 52 53 99 121 75 136 169"/>
+      <polygonVertex at="20 38 46 46 84 104 66 122 150"/>
+      <polygonVertex at="13 23 29 29 52 65 43 80 98"/>
+      <polygonVertex at="6 10 13 14 28 33 23 42 52"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 10 19 23 19 33 42"/>
+      <polygonVertex at="6 10 13 14 28 33 23 42 52"/>
+      <polygonVertex at="13 23 29 29 52 65 43 80 98"/>
+      <polygonVertex at="20 38 46 42 75 94 65 117 146"/>
+      <polygonVertex at="23 42 52 43 80 98 71 127 159"/>
+      <polygonVertex at="19 33 42 33 61 75 56 103 127"/>
+      <polygonVertex at="10 19 23 19 33 42 33 61 75"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 4 9 10 19 33 42"/>
+      <polygonVertex at="19 33 42 10 19 23 33 61 75"/>
+      <polygonVertex at="33 61 75 19 33 42 56 103 127"/>
+      <polygonVertex at="43 80 98 23 42 52 71 127 159"/>
+      <polygonVertex at="42 75 94 20 38 46 65 117 146"/>
+      <polygonVertex at="29 52 65 13 23 29 43 80 98"/>
+      <polygonVertex at="14 28 33 6 10 13 23 42 52"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 28 33 4 9 10 20 38 46"/>
+      <polygonVertex at="14 28 33 6 10 13 23 42 52"/>
+      <polygonVertex at="29 52 65 13 23 29 43 80 98"/>
+      <polygonVertex at="46 84 104 20 38 46 66 122 150"/>
+      <polygonVertex at="53 99 121 23 42 52 75 136 169"/>
+      <polygonVertex at="46 84 104 19 33 42 62 113 140"/>
+      <polygonVertex at="29 52 65 10 19 23 37 70 85"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="255" green="255" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="37 70 85 33 61 75 10 19 23" startSegment="20 38 46 19 33 42 4 9 10"/>
+    <SelectManifestation endSegment="20 38 46 19 33 42 4 9 10" startSegment="23 42 52 23 42 52 6 10 13"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="23 42 52 23 42 52 6 10 13" startSegment="43 80 98 43 80 98 13 23 29"/>
+    <SelectManifestation endSegment="23 42 52 23 42 52 6 10 13" startSegment="19 33 42 20 38 46 4 9 10"/>
+    <EndBlock/>
+    <AffineHeptagon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <SelectAll/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="20 38 46 19 33 42 4 9 10"/>
+      <polygonVertex at="37 70 85 33 61 75 10 19 23"/>
+      <polygonVertex at="62 113 140 56 103 127 19 33 42"/>
+      <polygonVertex at="75 136 169 71 127 159 23 42 52"/>
+      <polygonVertex at="66 122 150 65 117 146 20 38 46"/>
+      <polygonVertex at="43 80 98 43 80 98 13 23 29"/>
+      <polygonVertex at="23 42 52 23 42 52 6 10 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="23 42 52 23 42 52 6 10 13"/>
+      <polygonVertex at="43 80 98 43 80 98 13 23 29"/>
+      <polygonVertex at="65 117 146 66 122 150 20 38 46"/>
+      <polygonVertex at="71 127 159 75 136 169 23 42 52"/>
+      <polygonVertex at="56 103 127 62 113 140 19 33 42"/>
+      <polygonVertex at="33 61 75 37 70 85 10 19 23"/>
+      <polygonVertex at="19 33 42 20 38 46 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 20 38 46 19 33 42"/>
+      <polygonVertex at="10 19 23 37 70 85 33 61 75"/>
+      <polygonVertex at="19 33 42 62 113 140 56 103 127"/>
+      <polygonVertex at="23 42 52 75 136 169 71 127 159"/>
+      <polygonVertex at="20 38 46 66 122 150 65 117 146"/>
+      <polygonVertex at="13 23 29 43 80 98 43 80 98"/>
+      <polygonVertex at="6 10 13 23 42 52 23 42 52"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 13 23 42 52 23 42 52"/>
+      <polygonVertex at="13 23 29 43 80 98 43 80 98"/>
+      <polygonVertex at="20 38 46 65 117 146 66 122 150"/>
+      <polygonVertex at="23 42 52 71 127 159 75 136 169"/>
+      <polygonVertex at="19 33 42 56 103 127 62 113 140"/>
+      <polygonVertex at="10 19 23 33 61 75 37 70 85"/>
+      <polygonVertex at="4 9 10 19 33 42 20 38 46"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="19 33 42 4 9 10 20 38 46"/>
+      <polygonVertex at="33 61 75 10 19 23 37 70 85"/>
+      <polygonVertex at="56 103 127 19 33 42 62 113 140"/>
+      <polygonVertex at="71 127 159 23 42 52 75 136 169"/>
+      <polygonVertex at="65 117 146 20 38 46 66 122 150"/>
+      <polygonVertex at="43 80 98 13 23 29 43 80 98"/>
+      <polygonVertex at="23 42 52 6 10 13 23 42 52"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="23 42 52 6 10 13 23 42 52"/>
+      <polygonVertex at="43 80 98 13 23 29 43 80 98"/>
+      <polygonVertex at="66 122 150 20 38 46 65 117 146"/>
+      <polygonVertex at="75 136 169 23 42 52 71 127 159"/>
+      <polygonVertex at="62 113 140 19 33 42 56 103 127"/>
+      <polygonVertex at="37 70 85 10 19 23 33 61 75"/>
+      <polygonVertex at="20 38 46 4 9 10 19 33 42"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="51" green="255" red="51"/>
+    <BeginBlock/>
+    <SelectAll/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="0 0 0 1 5 4 4 9 10"/>
+      <polygonVertex at="1 5 4 4 9 10 10 19 23"/>
+      <polygonVertex at="4 9 10 6 10 13 14 28 33"/>
+      <polygonVertex at="6 10 13 4 9 10 14 28 33"/>
+      <polygonVertex at="4 9 10 1 5 4 10 19 23"/>
+      <polygonVertex at="1 5 4 0 0 0 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 10 19 23 1 5 4"/>
+      <polygonVertex at="6 10 13 14 28 33 4 9 10"/>
+      <polygonVertex at="4 9 10 14 28 33 6 10 13"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="4 9 10 0 0 0 1 5 4"/>
+      <polygonVertex at="10 19 23 1 5 4 4 9 10"/>
+      <polygonVertex at="14 28 33 4 9 10 6 10 13"/>
+      <polygonVertex at="14 28 33 6 10 13 4 9 10"/>
+      <polygonVertex at="10 19 23 4 9 10 1 5 4"/>
+      <polygonVertex at="4 9 10 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="0" green="102" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="19 33 42 4 9 10 20 38 46"/>
+      <polygonVertex at="33 61 75 10 19 23 37 70 85"/>
+      <polygonVertex at="56 103 127 19 33 42 62 113 140"/>
+      <polygonVertex at="71 127 159 23 42 52 75 136 169"/>
+      <polygonVertex at="65 117 146 20 38 46 66 122 150"/>
+      <polygonVertex at="43 80 98 13 23 29 43 80 98"/>
+      <polygonVertex at="23 42 52 6 10 13 23 42 52"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="23 42 52 6 10 13 23 42 52"/>
+      <polygonVertex at="43 80 98 13 23 29 43 80 98"/>
+      <polygonVertex at="66 122 150 20 38 46 65 117 146"/>
+      <polygonVertex at="75 136 169 23 42 52 71 127 159"/>
+      <polygonVertex at="62 113 140 19 33 42 56 103 127"/>
+      <polygonVertex at="37 70 85 10 19 23 33 61 75"/>
+      <polygonVertex at="20 38 46 4 9 10 19 33 42"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="20 38 46 19 33 42 4 9 10"/>
+      <polygonVertex at="37 70 85 33 61 75 10 19 23"/>
+      <polygonVertex at="62 113 140 56 103 127 19 33 42"/>
+      <polygonVertex at="75 136 169 71 127 159 23 42 52"/>
+      <polygonVertex at="66 122 150 65 117 146 20 38 46"/>
+      <polygonVertex at="43 80 98 43 80 98 13 23 29"/>
+      <polygonVertex at="23 42 52 23 42 52 6 10 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="23 42 52 23 42 52 6 10 13"/>
+      <polygonVertex at="43 80 98 43 80 98 13 23 29"/>
+      <polygonVertex at="65 117 146 66 122 150 20 38 46"/>
+      <polygonVertex at="71 127 159 75 136 169 23 42 52"/>
+      <polygonVertex at="56 103 127 62 113 140 19 33 42"/>
+      <polygonVertex at="33 61 75 37 70 85 10 19 23"/>
+      <polygonVertex at="19 33 42 20 38 46 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 20 38 46 19 33 42"/>
+      <polygonVertex at="10 19 23 37 70 85 33 61 75"/>
+      <polygonVertex at="19 33 42 62 113 140 56 103 127"/>
+      <polygonVertex at="23 42 52 75 136 169 71 127 159"/>
+      <polygonVertex at="20 38 46 66 122 150 65 117 146"/>
+      <polygonVertex at="13 23 29 43 80 98 43 80 98"/>
+      <polygonVertex at="6 10 13 23 42 52 23 42 52"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 13 23 42 52 23 42 52"/>
+      <polygonVertex at="13 23 29 43 80 98 43 80 98"/>
+      <polygonVertex at="20 38 46 65 117 146 66 122 150"/>
+      <polygonVertex at="23 42 52 71 127 159 75 136 169"/>
+      <polygonVertex at="19 33 42 56 103 127 62 113 140"/>
+      <polygonVertex at="10 19 23 33 61 75 37 70 85"/>
+      <polygonVertex at="4 9 10 19 33 42 20 38 46"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="204" green="204" red="255"/>
+    <BeginBlock/>
+    <SelectAll/>
+    <AdjustSelectionByClass balls="DESELECT" panels="IGNORE" struts="IGNORE"/>
+    <InvertSelection/>
+    <SelectNeighbors/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+      <polygonVertex at="1 5 4 0 0 0 4 9 10"/>
+      <polygonVertex at="4 9 10 0 0 0 6 10 13"/>
+      <polygonVertex at="6 10 13 0 0 0 4 9 10"/>
+      <polygonVertex at="4 9 10 0 0 0 1 5 4"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectAll/>
+    <EndBlock/>
+    <ShowHidden/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 3 3 0 0 0 1 3 3"/>
+      <polygonVertex at="0 0 0 1 3 3 1 3 3"/>
+      <polygonVertex at="1 3 3 1 3 3 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <SelectNeighbors/>
+    <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+    <InvertSelection/>
+    <EndBlock/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 1 5 4"/>
+    <SelectManifestation endSegment="1 5 4 0 0 0 0 0 0" startSegment="4 9 10 0 0 0 1 5 4"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 -4 0 -5"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 4 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 -4 0 -5"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 4 9 10 1 5 4"/>
+    <SelectManifestation point="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 -4 0 -5"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 -4 0 -5"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="1 5 4 0 0 0 0 0 0"/>
+      <polygonVertex at="4 9 10 1 5 4 0 0 0"/>
+      <polygonVertex at="6 10 13 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 6 10 13 0 0 0"/>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <ShowVertices/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 -4 0 -5"/>
+    <SelectManifestation point="0 0 0 0 0 0 -4 0 -5"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 -4 0 -5"/>
+    <SelectNeighbors/>
+    <EndBlock/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="1 5 4 10 19 23 4 9 10" startSegment="4 9 10 19 33 42 10 19 23"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="0 0 0 4 9 10 6 10 13"/>
+      <polygonVertex at="0 0 0 1 5 4 4 9 10"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 6 10 13 4 9 10" startSegment="0 0 0 4 9 10 1 5 4"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="0 0 0 4 9 10 6 10 13"/>
+      <polygonVertex at="0 0 0 1 5 4 4 9 10"/>
+      <polygonVertex at="0 0 0 0 0 0 1 5 4"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="1 5 4 10 19 23 4 9 10" startSegment="4 9 10 19 33 42 10 19 23"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+      <polygonVertex at="0 0 0 6 10 13 4 9 10"/>
+      <polygonVertex at="1 5 4 13 23 29 10 19 23"/>
+      <polygonVertex at="4 9 10 20 38 46 14 28 33"/>
+      <polygonVertex at="6 10 13 23 42 52 14 28 33"/>
+      <polygonVertex at="4 9 10 19 33 42 10 19 23"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 6 10 13 4 9 10" startSegment="0 0 0 4 9 10 1 5 4"/>
+    <SelectManifestation endSegment="0 0 0 6 10 13 4 9 10" startSegment="0 0 0 4 9 10 1 5 4"/>
+    <SelectManifestation endSegment="0 0 0 6 10 13 4 9 10" startSegment="0 0 0 4 9 10 1 5 4"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 10 19 23 1 5 4"/>
+      <polygonVertex at="6 10 13 14 28 33 4 9 10"/>
+      <polygonVertex at="4 9 10 14 28 33 6 10 13"/>
+      <polygonVertex at="1 5 4 10 19 23 4 9 10"/>
+      <polygonVertex at="0 0 0 4 9 10 1 5 4"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="0 0 0 5 5 9 0 0 0"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 5 5 9 0 0 0"/>
+    <SelectNeighbors/>
+    <EndBlock/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 1 5 4 0 0 0" startSegment="1 5 4 4 9 10 0 0 0"/>
+    <SelectManifestation endSegment="4 9 10 6 10 13 0 0 0" startSegment="6 10 13 4 9 10 0 0 0"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 9 10 6 10 13 0 0 0" startSegment="6 10 13 4 9 10 0 0 0"/>
+    <SelectManifestation endSegment="4 9 10 1 5 4 0 0 0" startSegment="1 5 4 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 10 13 4 9 10 0 0 0" startSegment="4 9 10 1 5 4 0 0 0"/>
+    <SelectManifestation endSegment="1 5 4 4 9 10 0 0 0" startSegment="4 9 10 6 10 13 0 0 0"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="6 10 13 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 6 10 13 0 0 0"/>
+      <polygonVertex at="10 19 23 13 23 29 1 5 4"/>
+      <polygonVertex at="19 33 42 20 38 46 4 9 10"/>
+      <polygonVertex at="23 42 52 23 42 52 6 10 13"/>
+      <polygonVertex at="20 38 46 19 33 42 4 9 10"/>
+      <polygonVertex at="13 23 29 10 19 23 1 5 4"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="5 14 14 5 14 14 0 0 0"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 4 9 10 0 0 0"/>
+      <polygonVertex at="4 9 10 10 19 23 1 5 4"/>
+      <polygonVertex at="10 19 23 19 33 42 4 9 10"/>
+      <polygonVertex at="14 28 33 23 42 52 6 10 13"/>
+      <polygonVertex at="14 28 33 20 38 46 4 9 10"/>
+      <polygonVertex at="10 19 23 13 23 29 1 5 4"/>
+      <polygonVertex at="4 9 10 6 10 13 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="5 5 9 5 14 14 0 0 0"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="4 9 10 1 5 4 0 0 0"/>
+      <polygonVertex at="6 10 13 4 9 10 0 0 0"/>
+      <polygonVertex at="13 23 29 10 19 23 1 5 4"/>
+      <polygonVertex at="20 38 46 14 28 33 4 9 10"/>
+      <polygonVertex at="23 42 52 14 28 33 6 10 13"/>
+      <polygonVertex at="19 33 42 10 19 23 4 9 10"/>
+      <polygonVertex at="10 19 23 4 9 10 1 5 4"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="5 14 14 5 5 9 0 0 0"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5 5 9 5 14 14 0 0 0" startSegment="14 28 33 23 42 52 6 10 13"/>
+    <SelectManifestation point="5 14 14 5 14 14 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="5 14 14 5 5 9 0 0 0"/>
+    <SelectManifestation point="5 5 9 5 14 14 0 0 0"/>
+    <SelectManifestation point="5 14 14 5 14 14 0 0 0"/>
+    <SelectNeighbors/>
+    <EndBlock/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="23 42 52 6 10 13 14 28 33" startSegment="19 33 42 4 9 10 10 19 23"/>
+    <SelectManifestation endSegment="14 28 33 6 10 13 4 9 10" startSegment="14 28 33 4 9 10 6 10 13"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="14 28 33 6 10 13 4 9 10" startSegment="14 28 33 4 9 10 6 10 13"/>
+    <SelectManifestation endSegment="14 28 33 6 10 13 4 9 10" startSegment="14 28 33 4 9 10 6 10 13"/>
+    <SelectManifestation endSegment="14 28 33 6 10 13 4 9 10" startSegment="14 28 33 4 9 10 6 10 13"/>
+    <SelectManifestation endSegment="19 33 42 10 19 23 4 9 10" startSegment="23 42 52 14 28 33 6 10 13"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="14 28 33 4 9 10 6 10 13" startSegment="10 19 23 1 5 4 4 9 10"/>
+    <SelectManifestation endSegment="10 19 23 4 9 10 1 5 4" startSegment="14 28 33 6 10 13 4 9 10"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 4 9 10 1 5 4"/>
+      <polygonVertex at="19 33 42 10 19 23 4 9 10"/>
+      <polygonVertex at="33 61 75 19 33 42 10 19 23"/>
+      <polygonVertex at="43 80 98 23 42 52 14 28 33"/>
+      <polygonVertex at="42 75 94 20 38 46 14 28 33"/>
+      <polygonVertex at="29 52 65 13 23 29 10 19 23"/>
+      <polygonVertex at="14 28 33 6 10 13 4 9 10"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="14 28 33 5 14 14 5 5 9"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 1 5 4 4 9 10"/>
+      <polygonVertex at="19 33 42 4 9 10 10 19 23"/>
+      <polygonVertex at="33 61 75 10 19 23 19 33 42"/>
+      <polygonVertex at="43 80 98 14 28 33 23 42 52"/>
+      <polygonVertex at="42 75 94 14 28 33 20 38 46"/>
+      <polygonVertex at="29 52 65 10 19 23 13 23 29"/>
+      <polygonVertex at="14 28 33 4 9 10 6 10 13"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="14 28 33 5 5 9 5 14 14"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="14 28 33 4 9 10 6 10 13"/>
+      <polygonVertex at="29 52 65 10 19 23 13 23 29"/>
+      <polygonVertex at="46 84 104 19 33 42 20 38 46"/>
+      <polygonVertex at="53 99 121 23 42 52 23 42 52"/>
+      <polygonVertex at="46 84 104 20 38 46 19 33 42"/>
+      <polygonVertex at="29 52 65 13 23 29 10 19 23"/>
+      <polygonVertex at="14 28 33 6 10 13 4 9 10"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="19 33 42 5 14 14 5 14 14"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="23 42 52 6 10 13 14 28 33" startSegment="19 33 42 4 9 10 10 19 23"/>
+    <SelectManifestation endSegment="13 23 29 1 5 4 10 19 23" startSegment="20 38 46 4 9 10 14 28 33"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="23 42 52 6 10 13 14 28 33" startSegment="19 33 42 4 9 10 10 19 23"/>
+    <SelectManifestation endSegment="13 23 29 1 5 4 10 19 23" startSegment="20 38 46 4 9 10 14 28 33"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="20 38 46 4 9 10 14 28 33" startSegment="23 42 52 6 10 13 14 28 33"/>
+    <SelectManifestation endSegment="19 33 42 4 9 10 10 19 23" startSegment="10 19 23 1 5 4 4 9 10"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 10 13 0 0 0 4 9 10" startSegment="13 23 29 1 5 4 10 19 23"/>
+    <SelectManifestation endSegment="23 42 52 6 10 13 23 42 52" startSegment="20 38 46 4 9 10 19 33 42"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="20 38 46 4 9 10 19 33 42" startSegment="13 23 29 1 5 4 10 19 23"/>
+    <SelectManifestation endSegment="19 33 42 4 9 10 20 38 46" startSegment="23 42 52 6 10 13 23 42 52"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="10 19 23 1 5 4 13 23 29" startSegment="19 33 42 4 9 10 20 38 46"/>
+    <SelectManifestation endSegment="23 42 52 6 10 13 23 42 52" startSegment="20 38 46 4 9 10 19 33 42"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="10 19 23 1 5 4 13 23 29" startSegment="4 9 10 0 0 0 6 10 13"/>
+    <SelectManifestation endSegment="14 28 33 6 10 13 23 42 52" startSegment="14 28 33 4 9 10 20 38 46"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="10 19 23 4 9 10 19 33 42" startSegment="14 28 33 6 10 13 23 42 52"/>
+    <SelectManifestation endSegment="14 28 33 4 9 10 20 38 46" startSegment="10 19 23 1 5 4 13 23 29"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="4 9 10 1 5 4 10 19 23" startSegment="10 19 23 4 9 10 19 33 42"/>
+    <SelectManifestation endSegment="14 28 33 6 10 13 23 42 52" startSegment="14 28 33 4 9 10 20 38 46"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="19 33 42 4 9 10 10 19 23"/>
+      <polygonVertex at="23 42 52 6 10 13 14 28 33"/>
+      <polygonVertex at="43 80 98 13 23 29 29 52 65"/>
+      <polygonVertex at="65 117 146 20 38 46 42 75 94"/>
+      <polygonVertex at="71 127 159 23 42 52 43 80 98"/>
+      <polygonVertex at="56 103 127 19 33 42 33 61 75"/>
+      <polygonVertex at="33 61 75 10 19 23 19 33 42"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="24 47 56 5 14 14 14 28 33"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="20 38 46 4 9 10 14 28 33"/>
+      <polygonVertex at="37 70 85 10 19 23 29 52 65"/>
+      <polygonVertex at="62 113 140 19 33 42 46 84 104"/>
+      <polygonVertex at="75 136 169 23 42 52 53 99 121"/>
+      <polygonVertex at="66 122 150 20 38 46 46 84 104"/>
+      <polygonVertex at="43 80 98 13 23 29 29 52 65"/>
+      <polygonVertex at="23 42 52 6 10 13 14 28 33"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="28 47 61 5 14 14 19 33 42"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="13 23 29 1 5 4 10 19 23"/>
+      <polygonVertex at="20 38 46 4 9 10 19 33 42"/>
+      <polygonVertex at="37 70 85 10 19 23 33 61 75"/>
+      <polygonVertex at="52 94 117 14 28 33 43 80 98"/>
+      <polygonVertex at="52 94 117 14 28 33 42 75 94"/>
+      <polygonVertex at="37 70 85 10 19 23 29 52 65"/>
+      <polygonVertex at="20 38 46 4 9 10 14 28 33"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="19 33 42 5 5 9 14 28 33"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="23 42 52 6 10 13 23 42 52"/>
+      <polygonVertex at="43 80 98 13 23 29 43 80 98"/>
+      <polygonVertex at="66 122 150 20 38 46 65 117 146"/>
+      <polygonVertex at="75 136 169 23 42 52 71 127 159"/>
+      <polygonVertex at="62 113 140 19 33 42 56 103 127"/>
+      <polygonVertex at="37 70 85 10 19 23 33 61 75"/>
+      <polygonVertex at="20 38 46 4 9 10 19 33 42"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="28 47 61 5 14 14 24 47 56"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="19 33 42 4 9 10 20 38 46"/>
+      <polygonVertex at="33 61 75 10 19 23 37 70 85"/>
+      <polygonVertex at="56 103 127 19 33 42 62 113 140"/>
+      <polygonVertex at="71 127 159 23 42 52 75 136 169"/>
+      <polygonVertex at="65 117 146 20 38 46 66 122 150"/>
+      <polygonVertex at="43 80 98 13 23 29 43 80 98"/>
+      <polygonVertex at="23 42 52 6 10 13 23 42 52"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="24 47 56 5 14 14 28 47 61"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 1 5 4 13 23 29"/>
+      <polygonVertex at="19 33 42 4 9 10 20 38 46"/>
+      <polygonVertex at="33 61 75 10 19 23 37 70 85"/>
+      <polygonVertex at="43 80 98 14 28 33 52 94 117"/>
+      <polygonVertex at="42 75 94 14 28 33 52 94 117"/>
+      <polygonVertex at="29 52 65 10 19 23 37 70 85"/>
+      <polygonVertex at="14 28 33 4 9 10 20 38 46"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="14 28 33 5 5 9 19 33 42"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="14 28 33 4 9 10 20 38 46"/>
+      <polygonVertex at="14 28 33 6 10 13 23 42 52"/>
+      <polygonVertex at="29 52 65 13 23 29 43 80 98"/>
+      <polygonVertex at="46 84 104 20 38 46 66 122 150"/>
+      <polygonVertex at="53 99 121 23 42 52 75 136 169"/>
+      <polygonVertex at="46 84 104 19 33 42 62 113 140"/>
+      <polygonVertex at="29 52 65 10 19 23 37 70 85"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="19 33 42 5 14 14 28 47 61"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="10 19 23 4 9 10 19 33 42"/>
+      <polygonVertex at="19 33 42 10 19 23 33 61 75"/>
+      <polygonVertex at="33 61 75 19 33 42 56 103 127"/>
+      <polygonVertex at="43 80 98 23 42 52 71 127 159"/>
+      <polygonVertex at="42 75 94 20 38 46 65 117 146"/>
+      <polygonVertex at="29 52 65 13 23 29 43 80 98"/>
+      <polygonVertex at="14 28 33 6 10 13 23 42 52"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ShowVertices/>
+    <SelectManifestation point="14 28 33 5 14 14 24 47 56"/>
+    <JoinPoints closedLoop="false" joinMode="ALL_TO_LAST"/>
+    <SelectNeighbors/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <ApplyTool name="rotation.3/rotation.3"/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes>
+    <page snapshot="0" title="Affine Heptagons on XYZ planes">
+      <ViewModel distance="155.8477325439453" far="311.69546508789085" near="0.3896193371656438" parallel="false" stereoAngle="0.0" width="70.13147964477538">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      </ViewModel>
+      <content xml:space="preserve">Affine heptagons are described in Scott Vorthmann's articles: 
+
+Part 1:  http://nbviewer.jupyter.org/github/vorth/ipython/blob/master/heptagons/HeptagonNumbers.ipynb
+
+Part 2: http://nbviewer.jupyter.org/github/vorth/ipython/blob/master/heptagons/DrawingTheHeptagon.ipynb
+
+Part 3:
+http://nbviewer.jupyter.org/github/vorth/ipython/blob/master/heptagons/Sevenfold%20Rotation.ipynb
+
+</content>
+    </page>
+    <page snapshot="1" title="Add exterior panels">
+      <ViewModel distance="155.8477325439453" far="311.69546508789085" near="0.3896193371656438" parallel="false" stereoAngle="0.0" width="70.13147964477538">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="2" title="Transparent exterior panels">
+      <ViewModel distance="155.8477325439453" far="311.69546508789085" near="0.3896193371656438" parallel="false" stereoAngle="0.0" width="70.13147964477538">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="3" title="Alternating black/white band">
+      <ViewModel distance="155.8477325439453" far="311.69546508789085" near="0.3896193371656438" parallel="false" stereoAngle="0.0" width="70.13147964477538">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      </ViewModel>
+      <content xml:space="preserve">Color some automatic struts.</content>
+    </page>
+    <page snapshot="4" title="Normals to automatic planes">
+      <ViewModel distance="155.8477325439453" far="311.69546508789085" near="0.3896193371656438" parallel="false" stereoAngle="0.0" width="70.13147964477538">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="5" title="About half of the panels are transparent">
+      <ViewModel distance="155.8477325439453" far="311.69546508789085" near="0.3896193371656438" parallel="false" stereoAngle="0.0" width="70.13147964477538">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      </ViewModel>
+      <content xml:space="preserve">Enough transparent panels to see the intersection of the three internal planes at the origin from all octants except the -X -Y -Z octant which has nothing significant to see anyway.</content>
+    </page>
+    <page snapshot="6" title="Looking down the only axis of symmetry">
+      <ViewModel distance="155.8477325439453" far="311.69546508789085" near="0.3896193371656438" parallel="false" stereoAngle="0.0" width="70.13147964477538">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="0.7071067811865476" z="-0.7071067811865476"/>
+        <LookDirection x="-0.5773502691896258" y="-0.5773502691896258" z="-0.5773502691896258"/>
+      </ViewModel>
+      <content xml:space="preserve">Looking down the yellow axis thru +1, +1, +1.</content>
+    </page>
+  </notes>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="1898.6138916015625" far="3797.2277832031477" near="4.746534799732779" parallel="false" stereoAngle="0.0" width="854.3762512207074">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.21033645804934942" y="0.5563347277784714" z="-0.8038969119749751"/>
+      <LookDirection x="0.5956971685450293" y="0.579076710266662" z="0.556610318817561"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="255,255,255" name="0" prototype="0 0 0 -1 0 0 -1 -1 1"/>
+    <Direction color="255,255,255" name="1" prototype="-1 0 1 0 0 0 1 0 0"/>
+    <Direction color="255,255,255" name="2" prototype="1 0 -1 1 1 -1 0 0 0"/>
+    <Direction color="255,255,255" name="3" prototype="2 1 -2 2 1 -2 -2 -1 1"/>
+    <Direction color="255,255,255" name="4" prototype="-3 -1 2 4 2 -3 2 1 -2"/>
+    <Direction color="255,255,255" name="5" prototype="1 1 -1 2 1 -2 -1 0 1"/>
+    <Direction color="255,255,255" name="6" prototype="-2 -1 2 -4 -2 3 -2 -1 2"/>
+    <Direction color="255,255,255" name="7" prototype="-1 -1 1 -1 -1 1 1 0 0"/>
+    <Direction color="255,255,255" name="41" prototype="2 1 -1 1 1 -1 -2 -1 2"/>
+    <Direction color="255,255,255" name="42" prototype="-1 0 1 -2 -1 2 3 1 -2"/>
+    <Direction color="255,255,255" name="43" prototype="-1 -1 1 -2 -1 2 -2 -1 2"/>
+    <Direction color="255,255,255" name="44" prototype="-1 0 1 -5 -2 4 4 2 -3"/>
+    <Direction color="255,255,255" name="45" prototype="-1 0 1 3 1 -2 -1 0 1"/>
+    <Direction color="255,255,255" name="46" prototype="-7 -3 5 5 2 -4 2 1 -2"/>
+    <Direction color="255,255,255" name="47" prototype="7 3 -6 -3 -1 2 -4 -2 3"/>
+    <Direction color="255,255,255" name="48" prototype="-2 -1 2 -2 -1 1 -3 -1 2"/>
+    <Direction color="255,255,255" name="49" prototype="7 3 -5 -5 -2 4 -1 0 1"/>
+    <Direction color="255,255,255" name="50" prototype="3 1 -2 3 1 -3 3 1 -2"/>
+    <Direction color="255,255,255" name="51" prototype="9 4 -7 -1 0 1 -2 -1 2"/>
+    <Direction color="255,255,255" name="52" prototype="5 2 -4 7 3 -6 -15 -7 12"/>
+    <Direction color="255,255,255" name="53" prototype="-9 -4 7 -7 -3 5 16 7 -13"/>
+    <Direction color="255,255,255" name="54" prototype="1 0 -1 4 2 -3 2 1 -2"/>
+    <Direction color="255,255,255" name="55" prototype="15 7 -12 -12 -5 10 -2 -1 2"/>
+    <Direction color="255,255,255" name="56" prototype="7 3 -5 7 3 -6 7 3 -5"/>
+    <Direction color="255,255,255" name="57" prototype="-12 -5 10 -1 0 1 9 4 -7"/>
+    <Direction color="255,255,255" name="58" prototype="7 3 -5 4 2 -3 -5 -2 4"/>
+    <Direction color="255,255,255" name="59" prototype="-7 -3 5 7 3 -6 5 2 -4"/>
+    <Direction color="255,255,255" name="60" prototype="12 5 -10 -7 -3 5 -9 -4 7"/>
+    <Direction color="255,255,255" name="61" prototype="-5 -2 4 0 0 0 -7 -3 5"/>
+    <Direction color="255,255,255" name="62" prototype="-5 -2 4 -7 -3 6 -2 -1 2"/>
+    <Direction color="255,255,255" name="63" prototype="-34 -15 27 21 9 -17 16 7 -13"/>
+    <Direction color="255,255,255" name="64" prototype="36 16 -29 -18 -8 14 -15 -7 12"/>
+    <Direction color="255,255,255" name="65" prototype="-1 0 1 2 1 -2 -5 -2 4"/>
+    <Direction color="255,255,255" name="66" prototype="-7 -3 6 -27 -12 22 34 15 -27"/>
+    <Direction color="255,255,255" name="67" prototype="-24 -11 19 27 12 -22 5 2 -4"/>
+    <Direction color="255,255,255" name="68" prototype="-15 -7 12 -11 -5 9 -12 -5 10"/>
+    <Direction color="255,255,255" name="69" prototype="24 11 -19 -7 -3 6 -5 -2 4"/>
+    <Direction color="255,255,255" name="70" prototype="7 3 -6 21 9 -17 -34 -15 27"/>
+    <Direction color="255,255,255" name="71" prototype="-18 -8 14 -18 -8 14 36 16 -29"/>
+    <Direction color="255,255,255" name="72" prototype="5 2 -4 11 5 -9 8 4 -6"/>
+    <Direction color="255,255,255" name="73" prototype="-13 -6 10 10 4 -8 8 4 -7"/>
+    <Direction color="255,255,255" name="74" prototype="1 0 -1 -15 -7 12 8 4 -7"/>
+    <Direction color="255,255,255" name="75" prototype="18 8 -15 -1 -1 1 -15 -7 12"/>
+    <Direction color="255,255,255" name="76" prototype="-16 -7 12 10 4 -8 10 4 -8"/>
+    <Direction color="255,255,255" name="77" prototype="38 17 -31 -34 -15 27 2 1 -2"/>
+    <Direction color="255,255,255" name="78" prototype="-7 -3 5 22 10 -18 -29 -13 23"/>
+    <Direction color="255,255,255" name="79" prototype="12 5 -10 -1 -1 1 -4 -2 3"/>
+    <Direction color="255,255,255" name="80" prototype="-35 -16 28 -3 -1 2 41 18 -33"/>
+    <Direction color="255,255,255" name="81" prototype="1 0 -1 22 10 -18 -35 -16 28"/>
+    <Direction color="255,255,255" name="82" prototype="-10 -5 8 -34 -15 27 41 18 -33"/>
+    <Direction color="255,255,255" name="83" prototype="-4 -2 3 19 8 -15 -29 -13 23"/>
+    <Direction color="255,255,255" name="84" prototype="-4 -2 3 19 8 -15 2 1 -2"/>
+    <Direction color="255,255,255" name="85" prototype="-10 -5 8 -34 -15 27 38 17 -31"/>
+    <Direction color="255,255,255" name="86" prototype="1 0 -1 22 10 -18 -7 -3 5"/>
+    <Direction color="255,255,255" name="87" prototype="-35 -16 28 -3 -1 2 27 12 -22"/>
+  </SymmetrySystem>
+  <Tools>
+    <Tool id="rotation.3/rotation.3" label="rotation.3/rotation.3"/>
+  </Tools>
+</vzome:vZome>

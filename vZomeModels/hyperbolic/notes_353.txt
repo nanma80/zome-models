@@ -1,0 +1,12 @@
+Cell first:
+
+R^2 = 4/(3*phi-1)
+x0^2 = R^2 + phi + 2
+
+first layer vertices: (x0; phi, 1, 0)^S
+
+One new point in the second layer: (a; b, 0, 0)
+b = 2*phi^2
+a = b^2 + R^2
+
+Inner product of two neighbors = R^2 cosh(2p) where p satisfies (cosh(p))^2 = 3*phi^2/4 according to a Coxeter paper

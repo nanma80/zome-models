@@ -1,0 +1,10 @@
+Radius: phi^(-1/2)
+(phi^(-1/2); 0,0,0)
+(phi^(3/2); phi,1,0)A
+(phi^(5/2); 2*phi,0,0)S
+(phi^(5/2); phi^2,1,phi)A
+(sqrt(5)*phi^(3/2); phi^2,phi^3,0)A
+
+* phi ^ 2:
+
+Radius: phi^(3/2)

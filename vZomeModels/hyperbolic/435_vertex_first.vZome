@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" coreVersion="0.16.0" field="golden">
+  <EditHistory editNumber="186" lastStickyEdit="-1">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="46" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 1 2 -1 -1"/>
+    <SelectManifestation endSegment="0 0 1 2 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 1 2 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 1 2 -1 -1"/>
+    <EndBlock/>
+    <Symmetry>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Symmetry>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 1 2 1 1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 1 2 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 1 2 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 1 2 1 1" dir="red" index="46" len="1 1"/>
+    <StrutCreation anchor="0 0 1 2 -1 -1" dir="red" index="1" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 2 4 0 0" startSegment="0 0 1 2 -1 -1"/>
+    <SelectManifestation point="0 0 2 4 0 0"/>
+    <SelectManifestation endSegment="0 0 2 4 0 0" startSegment="0 0 1 2 1 1"/>
+    <EndBlock/>
+    <Symmetry>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Symmetry>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 2 4 0 0" dir="red" index="45" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -2 3 5 0 0"/>
+    <SelectManifestation endSegment="-1 -2 3 5 0 0" startSegment="0 0 2 4 0 0"/>
+    <EndBlock/>
+    <Symmetry>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Symmetry>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 1 2 1 1"/>
+    <DeselectAll/>
+    <SelectAll/>
+    <DeselectAll/>
+    <SelectManifestation point="1 1 1 2 2 3"/>
+    <SelectManifestation point="-1 -2 2 3 -1 -1"/>
+    <SelectManifestation point="1 1 0 0 1 2"/>
+    <SelectManifestation point="1 1 1 2 2 3"/>
+    <SelectManifestation point="1 1 1 2 2 3"/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 2 2 3 1 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 2 4 0 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0" index="22" len="2 4"/>
+    <StrutCreation anchor="0 0 0 0 0 0" index="55" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1 -1 -1 -2 -2 -3" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 -1 1 2 -2 -3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <AffinePentagon/>
+    <DeselectAll/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -1 0 0 -1 -2"/>
+    <SelectManifestation point="-2 -3 1 1 -5 -8"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -1 0 0 -1 -2"/>
+    <SelectManifestation point="-2 -3 -1 -1 -5 -8"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -3 1 1 -5 -8" startSegment="-1 -1 0 0 -1 -2"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -3 1 1 -5 -8" startSegment="-2 -3 -1 -1 -5 -8"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="-2 -3 -1 -1 -5 -8" startSegment="-1 -1 -1 -2 -2 -3"/>
+    <Delete/>
+    <SelectManifestation endSegment="-1 -1 -1 -2 -2 -3" startSegment="0 0 0 0 0 0"/>
+    <Delete/>
+    <SelectManifestation endSegment="-1 -1 1 2 -2 -3" startSegment="0 0 0 0 0 0"/>
+    <Delete/>
+    <SelectManifestation endSegment="-2 -3 1 1 -5 -8" startSegment="-1 -1 1 2 -2 -3"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -3 1 1 -5 -8" startSegment="-1 -1 0 0 -1 -2"/>
+    <SelectManifestation point="-2 -3 1 1 -5 -8"/>
+    <EndBlock/>
+    <Symmetry/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -1 0 0 -1 -2"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 1 0 0 -1 -2"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 1 2 -1 -1"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -1 -2 1 1"/>
+    <SelectManifestation point="1 2 -1 -1 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 2 -2 -3 -1 -1"/>
+    <SelectManifestation point="1 1 -1 -2 -2 -3"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <SelectManifestation point="1 2 -2 -3 -1 -1"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 2 -2 -3 -1 -1"/>
+    <SelectManifestation point="1 1 -5 -8 -2 -3"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <SelectManifestation endSegment="1 1 -1 -2 -2 -3" startSegment="1 2 -2 -3 -1 -1"/>
+    <AffinePentagon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -6 -10 -4 -6"/>
+    <SelectManifestation endSegment="1 1 -1 -2 -2 -3" startSegment="1 2 -2 -3 -1 -1"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 1 -1 -2 -2 -3" startSegment="1 2 -2 -3 -1 -1"/>
+    <SelectManifestation endSegment="1 1 -5 -8 -2 -3" startSegment="1 2 -2 -3 -1 -1"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 1 -1 -2 -2 -3" startSegment="1 2 -2 -3 -1 -1"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="1 1 -5 -8 -2 -3" startSegment="1 2 -2 -3 -1 -1"/>
+    <Delete/>
+    <SelectManifestation endSegment="0 0 -4 -6 -4 -6" startSegment="1 1 -1 -2 -2 -3"/>
+    <Delete/>
+    <SelectManifestation endSegment="0 0 -4 -6 -4 -6" startSegment="0 0 -6 -10 -4 -6"/>
+    <Delete/>
+    <SelectManifestation endSegment="0 0 -6 -10 -4 -6" startSegment="1 1 -5 -8 -2 -3"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 -1 -2 -1 -1"/>
+    <SelectManifestation point="0 0 -6 -10 -4 -6"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 -6 -10 -4 -6" startSegment="0 0 -1 -2 -1 -1"/>
+    <SelectManifestation point="0 0 -6 -10 -4 -6"/>
+    <EndBlock/>
+    <Symmetry/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 2 -2 -3 -1 -1" startSegment="0 0 -1 -2 -1 -1"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="1 1 -5 -8 -2 -3" dir="red" index="15" len="1 1"/>
+    <StrutCreation anchor="1 1 -5 -8 -2 -3" dir="red" index="31" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 2 -2 -3 -1 -1"/>
+    <SelectManifestation point="2 3 -6 -9 -2 -3"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 3 -6 -9 -2 -3" startSegment="1 2 -2 -3 -1 -1"/>
+    <SelectManifestation endSegment="2 3 -6 -9 -2 -3" startSegment="1 1 -5 -8 -2 -3"/>
+    <SelectManifestation point="2 3 -6 -9 -2 -3"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -2 -4 0 0"/>
+    <SelectManifestation point="1 1 -6 -10 -1 -2"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <DeselectAll/>
+    <StrutCreation anchor="2 3 -6 -9 -2 -3" dir="red" index="31" len="1 1"/>
+    <StrutCreation anchor="1 1 -6 -10 -1 -2" dir="red" index="15" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 2 -3 -5 0 0"/>
+    <SelectManifestation point="2 3 -7 -11 -1 -2"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 3 -6 -9 -2 -3" startSegment="1 2 -2 -3 -1 -1"/>
+    <SelectManifestation endSegment="1 1 -6 -10 -1 -2" startSegment="0 0 -2 -4 0 0"/>
+    <SelectManifestation point="2 3 -6 -9 -2 -3"/>
+    <SelectManifestation point="1 1 -6 -10 -1 -2"/>
+    <SelectManifestation endSegment="1 1 -6 -10 -1 -2" startSegment="1 1 -5 -8 -2 -3"/>
+    <SelectManifestation endSegment="2 3 -6 -9 -2 -3" startSegment="1 1 -5 -8 -2 -3"/>
+    <SelectManifestation endSegment="2 3 -7 -11 -1 -2" startSegment="2 3 -6 -9 -2 -3"/>
+    <SelectManifestation endSegment="2 3 -7 -11 -1 -2" startSegment="1 1 -6 -10 -1 -2"/>
+    <SelectManifestation point="2 3 -7 -11 -1 -2"/>
+    <SelectManifestation endSegment="2 3 -7 -11 -1 -2" startSegment="1 2 -3 -5 0 0"/>
+    <EndBlock/>
+    <Symmetry/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="227.89373779296875" far="455.7874755859366" near="0.5697343529721256" parallel="false" stereoAngle="0.0" width="102.55218200683605">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.6355734016565282" y="-0.06141411368535128" z="0.7695938914434132"/>
+      <LookDirection x="-0.7102359506839798" y="0.3442903135514449" z="0.614026932919648"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="icosahedral" renderingStyle="solid connectors">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="220,76,0" name="orange"/>
+    <Direction color="108,0,198" name="purple"/>
+    <Direction color="30,30,30" name="black"/>
+    <Direction color="175,135,255" name="lavender"/>
+    <Direction color="100,113,0" name="olive"/>
+    <Direction color="117,0,50" name="maroon"/>
+    <Direction color="255,51,143" name="rose"/>
+    <Direction color="0,0,153" name="navy"/>
+    <Direction color="18,205,148" name="turquoise"/>
+    <Direction color="255,126,106" name="coral"/>
+    <Direction color="230,245,62" name="sulfur"/>
+    <Direction color="154,117,74" name="sand"/>
+    <Direction color="116,195,0" name="apple"/>
+    <Direction color="136,37,0" name="cinnamon"/>
+    <Direction color="18,73,48" name="spruce"/>
+    <Direction color="107,53,26" name="brown"/>
+  </SymmetrySystem>
+</vzome:vZome>
